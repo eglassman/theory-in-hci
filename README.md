@@ -129,3 +129,5 @@ from which HCI researchers can derive actionable principles to inform HCI work [
 [ ] translate Remarkable notes from during Kavli
 [ ] translate theory in HCI slides from Freiburg
 [ ] is theory a form of meta analysis?
+
+# Contributed examples
