@@ -41,6 +41,52 @@ Note that theories have names and iterated on abstract sentences that explain te
 "source_field": " "
 }
 
+{
+"uid":"",
+"concept_name": " ",
+"alternative_names": [" ", ...],
+"concept_definition": [" ", ...],
+"early_key_papers": [uid, ...],
+"key_summative_papers_or_books": [uid, ...],
+"key_authors": [" ", ...],
+"source_field": " "
+}
+
+{
+"uid":"",
+"actionable_principle_name": " ",
+"alternative_names": [" ", ...],
+"actionable_principle__description": [" ", ...],
+"early_key_papers": [uid, ...],
+"key_summative_papers_or_books": [uid, ...],
+"key_authors": [" ", ...],
+"source_field": " "
+}
+
+{
+"uid":"",
+"framework_name": " ",
+"alternative_names": [" ", ...],
+"framework_description": [" ", ...],
+"early_key_papers": [uid, ...],
+"key_summative_papers_or_books": [uid, ...],
+"key_authors": [" ", ...],
+"source_field": " "
+}
+
+{
+"uid":"",
+"meta_theory_name": " ",
+"alternative_names": [" ", ...],
+"meta_theory_description": [" ", ...],
+"early_key_papers": [uid, ...],
+"key_summative_papers_or_books": [uid, ...],
+"key_authors": [" ", ...],
+"source_field": " "
+}
+
+[ ] actionable principle to use as example would be faceted browsing
+
 ## Paper format
 
 {
@@ -60,7 +106,18 @@ Note that theories have names and iterated on abstract sentences that explain te
 
 {
 "uid":"",
-"thesis_statements": [{ }, ...],
+"thesis_statement": "",
+"supporting_papers_and_explanations": [{uid, explanation}, ...],
+"supporting_frameworks_and_explanations": [{uid, explanation}, ...],
+"concepts_on_which_it_depends": [uid, ...],
+"meta_theories": [uid, ...]
+}
+
+
+# Goals
+
+1. Infrastructure for annual census of theory in HCI at, say, CHI, to answer questions of "basic current curricular needs", areas of over and under-examination, disambiguate different concepts with similar or same names, disambiguate same concept with different names, etc.
+2. Contribute to / accumulate evidence in favor of theory refinement and emerging new theory 
 
 # Scraps:
 
@@ -71,3 +128,4 @@ from which HCI researchers can derive actionable principles to inform HCI work [
 
 [ ] translate Remarkable notes from during Kavli
 [ ] translate theory in HCI slides from Freiburg
+[ ] is theory a form of meta analysis?
