@@ -20,13 +20,54 @@ Second, for a given theory, a researcher can:
 and/or
 (7) fail to notice the observations that would confirm or contradict the theory's predictions. 
 
-Note that a theory does not need to already have a name and an accumulation of papers collecting data that support and refine it. It can be the design argument [cite] behind a particular system, which offers an explanation for why this particular system works and implicitly predicts why other systems with the same characteristics should work. It can be 
+Note that a theory does not need to already have a name and an accumulation of papers collecting data that support and refine it. It can be the design argument [cite] behind a particular system, which offers an explanation for why this particular system works and implicitly predicts why other systems with the same characteristics should work. It can be the more abstracted summary of findings from a grounded theory analysis of qualitative interviews.
 
-Scraps:
+# Data format
+
+## Theory/thesis/concept/actionable principle schema-less "database"
+
+### (Named) theory format
+
+Note that theories have names and iterated on abstract sentences that explain testable predictions or descriptions of phenonema from which researchers can derive testable hypotheses.
+
+{
+"uid":"",
+"theory_name": " ",
+"alternative_names": [" ", ...],
+"theory_in_sentences": [" ", ...],
+"early_key_papers": [uid, ...],
+"key_summative_papers_or_books": [uid, ...],
+"key_authors": [" ", ...],
+"source_field": " "
+}
+
+## Paper format
+
+{
+"uid":"",
+"thesis_statements": [uid, ...],
+"concepts_defined": [uid, ...],
+"actionable_principles" : [{ }, ...],
+"theories_mentioned": [uid, ...],
+"concepts_mentioned": [uid, ...],
+"actionable_principles_derived_from" : [uid, ...],
+"results_analyzed_with_respect_to_or_in_light_of" : [uid, ...],
+"bibtex": " ",
+"field": " ",
+}
+
+### Emerging (unnamed) theory format
+
+{
+"uid":"",
+"thesis_statements": [{ }, ...],
+
+# Scraps:
 
 from which HCI researchers can derive actionable principles to inform HCI work [e.g., using Generative Theories of Interactions methodology] and test hypotheses [e.g., by instantiating novel interfaces that follow those principles and evaluating their impact on humans].
 
-Todos:
+
+# Todos:
 
 [ ] translate Remarkable notes from during Kavli
 [ ] translate theory in HCI slides from Freiburg
