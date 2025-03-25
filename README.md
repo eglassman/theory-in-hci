@@ -108,9 +108,11 @@ Note that theories have names and iterated on abstract sentences that explain te
 "uid":"",
 "thesis_statement": "",
 "supporting_papers_and_explanations": [{uid, explanation}, ...],
+"contradicting_papers_and_explanations": [{uid, explanation}, ...],
 "supporting_frameworks_and_explanations": [{uid, explanation}, ...],
 "concepts_on_which_it_depends": [uid, ...],
-"meta_theories": [uid, ...]
+"meta_theories": [uid, ...],
+"revised_thesis_statements": [uid,...]
 }
 
 
