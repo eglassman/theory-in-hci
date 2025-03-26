@@ -30,6 +30,7 @@ Note that a theory does not need to already have a name and an accumulation of p
 
 Note that theories have names and iterated on abstract sentences that explain testable predictions or descriptions of phenonema from which researchers can derive testable hypotheses.
 
+```
 {
 "uid":"",
 "theory_name": " ",
@@ -84,11 +85,13 @@ Note that theories have names and iterated on abstract sentences that explain te
 "key_authors": [" ", ...],
 "source_field": " "
 }
+```
 
 [ ] actionable principle to use as example would be faceted browsing
 
 ## Paper format
 
+```
 {
 "uid":"",
 "thesis_statements": [uid, ...],
@@ -101,9 +104,11 @@ Note that theories have names and iterated on abstract sentences that explain te
 "bibtex": " ",
 "field": " ",
 }
+```
 
 ### Emerging (unnamed) theory format
 
+```
 {
 "uid":"",
 "thesis_statement": "",
@@ -114,7 +119,7 @@ Note that theories have names and iterated on abstract sentences that explain te
 "meta_theories": [uid, ...],
 "revised_thesis_statements": [uid,...]
 }
-
+```
 
 # Goals
 
