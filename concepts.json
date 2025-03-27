@@ -9,4 +9,16 @@ concepts = [{
 "key_authors": ["Gentner"],
 "source_field": "Psychology",
 "supporting_theories": [0]
+},
+{
+"uid": 1,
+"concept_name": "Representation",
+"alternative_names": [],
+"concept_definition": "The entity types and relationships between them with which an object can be parsed. [See analogy and abstraction to iterate on this]",
+"characteristics": []
+"early_key_papers": [uid, ...],
+"key_summative_papers_or_books": [uid, ...],
+"key_authors": [],
+"source_field": "Psychology",
+"supporting_theories": [0]
 }]
