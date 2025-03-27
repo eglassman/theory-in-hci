@@ -32,14 +32,14 @@ Note that theories have names and iterated on abstract sentences that explain te
 
 ```
 {
-"uid":"",
-"theory_name": " ",
-"alternative_names": [" ", ...],
-"theory_in_sentences": [" ", ...],
+"uid": 0,
+"theory_name": "",
+"alternative_names": ["", ...],
+"theory_in_sentences": "",
 "early_key_papers": [uid, ...],
 "key_summative_papers_or_books": [uid, ...],
-"key_authors": [" ", ...],
-"source_field": " "
+"key_authors": ["", ..],
+"source_field": ""
 }
 
 {
