@@ -1,9 +1,9 @@
 principles = [{
 "uid": 0,
 "actionable_principle_name": "Reify pre-computed commonalities",
-"alternative_names": [" ", ...],
-"further_description": [" "],
+"alternative_names": [],
+"further_description": [],
 "papers_demonstrating_its_use_clearly": [uid, ...],
-"supporting_theories": [uid, ...],
-"concept_dependencies": [uid, ...]
+"supporting_theories": [0, ...],
+"concept_dependencies": []
 }]
