@@ -1,8 +1,8 @@
 principles = [{
 "uid": 0,
-"actionable_principle_name": "Reify pre-computed commonalities",
+"actionable_principle_name": "Reify pre-computed commonalities and differences",
 "alternative_names": [],
-"further_description": "",
+"further_description": "May support the internal mapping engine, at least in the early stages of sensemaking. Probably most effective if computed only after reasoning about possible structural alignments, not based on literal similarity alone---otherwise it could get in the way of identifying more latent structural similarities and differences.",
 "papers_demonstrating_its_use_clearly": [uid, ...],
 "supporting_theories": [0],
 "concept_dependencies": []
