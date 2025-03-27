@@ -2,8 +2,18 @@ principles = [{
 "uid": 0,
 "actionable_principle_name": "Reify pre-computed commonalities",
 "alternative_names": [],
-"further_description": [],
+"further_description": "",
 "papers_demonstrating_its_use_clearly": [uid, ...],
-"supporting_theories": [0, ...],
+"supporting_theories": [0],
 "concept_dependencies": []
-}]
+},
+{
+"uid": 1,
+"actionable_principle_name": "Reify pre-computed parsings of objects into structures",
+"alternative_names": [],
+"further_description": "May require a pre-defined representation with which to parse objects",
+"papers_demonstrating_its_use_clearly": [uid, ...],
+"supporting_theories": [0],
+"concept_dependencies": [1]
+}
+]
