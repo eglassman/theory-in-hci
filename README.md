@@ -44,25 +44,24 @@ Note that theories have names and iterated on abstract sentences that explain te
 
 {
 "uid": 0,
-"concept_name": "structure-mapping engine",
-"alternative_names": ["SME"],
-"concept_definition": "Mental process of finding an alignment of two objects' structures",
+"concept_name": "",
+"alternative_names": [""],
+"concept_definition": "",
 "characteristics": [{"description": "", "supporting_papers": [uid,...]}, ...]
 "early_key_papers": [uid, ...],
 "key_summative_papers_or_books": [uid, ...],
-"key_authors": ["Gentner"],
-"source_field": "Psychology"
+"key_authors": ["",...],
+"source_field": ""
 }
 
 {
-"uid":"",
-"actionable_principle_name": " ",
+"uid": 0,
+"actionable_principle_name": "",
 "alternative_names": [" ", ...],
-"actionable_principle__description": [" ", ...],
-"early_key_papers": [uid, ...],
-"key_summative_papers_or_books": [uid, ...],
-"key_authors": [" ", ...],
-"source_field": " "
+"further_description": [" "],
+"papers_demonstrating_its_use_clearly": [uid, ...],
+"supporting_theories": [uid, ...],
+"concept_dependencies": [uid, ...]
 }
 
 {
