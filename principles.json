@@ -17,9 +17,18 @@ principles = [{
 "concept_dependencies": [1]
 },
 {
-"uid": 1,
+"uid": 2,
 "actionable_principle_name": "Reify pre-computed possible partial or complete structural alignment(s)",
-"alternative_names": [],
+"alternative_names": ["Pre-compute and reify intended structural mapping"],
+"further_description": "",
+"papers_demonstrating_its_use_clearly": [uid, ...],
+"supporting_theories": [0],
+"concept_dependencies": [0]
+},
+{
+"uid": 3,
+"actionable_principle_name": "Minimize spatiotemporal distance between alignable objects, especially corresponding components",
+"alternative_names": ["direct spatial alignment", "spatiotemporal proximity"],
 "further_description": "",
 "papers_demonstrating_its_use_clearly": [uid, ...],
 "supporting_theories": [0],
