@@ -42,5 +42,14 @@ principles = [{
 "papers_demonstrating_its_use_clearly": [uid, ...],
 "supporting_theories": [0],
 "concept_dependencies": []
+},
+  {
+"uid": 5,
+"actionable_principle_name": "Reify pre-computed literal differences",
+"alternative_names": [""],
+"further_description": "",
+"papers_demonstrating_its_use_clearly": [uid, ...],
+"supporting_theories": [0],
+"concept_dependencies": []
 }
 ]
