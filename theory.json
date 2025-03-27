@@ -1,0 +1,10 @@
+theory = [{
+"uid": 0,
+"theory_name": "Structural Mapping Theory",
+"alternative_names": ["Structural Alignment Theory"],
+"theory_in_sentences": "Describes the characteristics of the process by which people compare objects, attend to similarities and differences, form schema, etc. [see Analogy and Abstraction to fill out this list",
+"early_key_papers": [uid, ...],
+"key_summative_papers_or_books": [uid, ...],
+"key_authors": ["Gentner"],
+"source_field": "Psychology"
+}]
