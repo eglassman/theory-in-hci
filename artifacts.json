@@ -1,0 +1,11 @@
+artifacts = [{
+  "uid": 0,
+  "name": "AbstractExplorer"
+}]
+
+characteristics = [{
+  "uid": 0,
+  "name": "Classify sentences by role",
+  "supporting_theories": [0],
+  "supporting_principles": [......
+}]
