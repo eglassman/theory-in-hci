@@ -1,8 +1,8 @@
 principles = [{
 "uid": 0,
-"actionable_principle_name": "Given a possible alignment, reify pre-computed commonalities and differences",
+"actionable_principle_name": "Reify pre-computed commonalities and/or differences of corresponding components within an alignment",
 "alternative_names": [],
-"further_description": "If computed without reasoning about possible structural alignments, not based on literal similarity alone---otherwise it could get in the way of identifying more latent structural similarities and differences.",
+"further_description": "If computed literally without reasoning about possible structural alignments, not based on literal similarity alone---otherwise it could get in the way of identifying more latent structural similarities and differences.",
 "papers_demonstrating_its_use_clearly": [uid, ...],
 "supporting_theories": [0],
 "concept_dependencies": []
@@ -33,5 +33,14 @@ principles = [{
 "papers_demonstrating_its_use_clearly": [uid, ...],
 "supporting_theories": [0],
 "concept_dependencies": [0]
+},
+  {
+"uid": 4,
+"actionable_principle_name": "Reify pre-computed non-literal commonalities",
+"alternative_names": ["Compute and reify common labels"],
+"further_description": "",
+"papers_demonstrating_its_use_clearly": [uid, ...],
+"supporting_theories": [0],
+"concept_dependencies": []
 }
 ]
