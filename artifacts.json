@@ -8,5 +8,23 @@ characteristics = [{
   "name": "Classify sentences by role",
   "supporting_theories": [0],
   "supporting_principles": [],
-  "necessary_for_principles": [P4]
-}]
+  "necessary_for_principles": [P4],
+  "artifacts": [0]
+},
+  {
+  "uid": 1,
+  "name": "Parse sentence into sequential grammatical phrases",
+  "supporting_theories": [0],
+  "supporting_principles": [],
+  "necessary_for_principles": [P4],
+  "artifacts": [0]
+},
+  {
+  "uid": 2,
+  "name": "List same-role sentences vertically in adjacent rows",
+  "supporting_theories": [0],
+  "supporting_principles": [],
+  "necessary_for_principles": [P3],
+  "artifacts": [0]
+}
+]
