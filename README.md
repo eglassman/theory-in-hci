@@ -43,14 +43,15 @@ Note that theories have names and iterated on abstract sentences that explain te
 }
 
 {
-"uid":"",
-"concept_name": " ",
-"alternative_names": [" ", ...],
-"concept_definition": [" ", ...],
+"uid": 0,
+"concept_name": "structure-mapping engine",
+"alternative_names": ["SME"],
+"concept_definition": "Mental process of finding an alignment of two objects' structures",
+"characteristics": [{"description": "", "supporting_papers": [uid,...]}, ...]
 "early_key_papers": [uid, ...],
 "key_summative_papers_or_books": [uid, ...],
-"key_authors": [" ", ...],
-"source_field": " "
+"key_authors": ["Gentner"],
+"source_field": "Psychology"
 }
 
 {
