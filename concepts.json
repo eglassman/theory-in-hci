@@ -7,5 +7,6 @@ concepts = [{
 "early_key_papers": [uid, ...],
 "key_summative_papers_or_books": [uid, ...],
 "key_authors": ["Gentner"],
-"source_field": "Psychology"
+"source_field": "Psychology",
+"supporting_theory": 0
 }]
