@@ -7,5 +7,6 @@ characteristics = [{
   "uid": 0,
   "name": "Classify sentences by role",
   "supporting_theories": [0],
-  "supporting_principles": [......
+  "supporting_principles": [],
+  "necessary_for_principles": [P4]
 }]
