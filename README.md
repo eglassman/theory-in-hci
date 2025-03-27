@@ -51,7 +51,8 @@ Note that theories have names and iterated on abstract sentences that explain te
 "early_key_papers": [uid, ...],
 "key_summative_papers_or_books": [uid, ...],
 "key_authors": ["",...],
-"source_field": ""
+"source_field": "",
+"supporting_theories": [uid, ...]
 }
 
 {
