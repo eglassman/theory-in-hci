@@ -6,5 +6,7 @@ theory = [{
 "early_key_papers": [uid, ...],
 "key_summative_papers_or_books": [uid, ...],
 "key_authors": ["Gentner"],
-"source_field": "Psychology"
+"source_field": "Psychology",
+"relevant_purposes": "Learning/developing abstract structured knowledge from analogical comparison of concrete examples",
+  "relevant_quotes": [{"quote": "abstract knowledge are variously referred to as schemas, rules, abstractions, principles, or overhypotheses. Many such abstractions are expressed as relational categories—categories like evidence, counterfactual, and proportion, and on a more mundane level, bargain, ally, and rescue.", "source_paper": 0}]
 }]
