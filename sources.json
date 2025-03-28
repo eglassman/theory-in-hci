@@ -1,0 +1,4 @@
+sources = [{
+  "uid": 0,
+  "bibtex": "@article{gentner2017analogy, title={Analogy and abstraction},author={Gentner, Dedre and Hoyos, Christian},journal={Topics in cognitive science},volume={9},number={3},pages={672--693},year={2017},publisher={Wiley Online Library}}"
+}]
