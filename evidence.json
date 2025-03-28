@@ -1,0 +1,8 @@
+evidence = [{
+  "uid":0,
+  "paper_source":1,
+  "characteristics_present":[...],
+  "principles_fulfilled":[...],
+  "study_context": "",
+  "relevant_results":[]
+}]
