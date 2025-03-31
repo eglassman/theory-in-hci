@@ -147,11 +147,24 @@ G_{1-N} : Goals that a user is, wants to, or could pursue if obstacles in the wa
 E_{1-N} : Study findings, etc. that support or refute whether and how certain characteristics helped users get around obstacles to goals, given specified experimental/observational setup (does not verify that the characteristics fully or even partly instantiate any principles they're designated as instantiated, or whether the principles as expressed do follow from the intended theory, though one can speculate that if expectations (derived from the theory) about the impact of the intervention on users is fulfilled, that the previous two concerns are fulfilled)
 
 ### Adjectives
+
 ODS : other domain-specific
+
 DS : domain-specific
+
 NDS : non-domain-specific
+
 A : analogous, i.e., reflecting a principle or obstacle in a different domain
+
 O : other, i.e., characteristic of another system
+
+## Structure
+
+| T | P | NDS_O | NDS_G | Most abstract level |
+|   | ODS_AC | ODS_AO | ODS_AG | Existing analogous system 1 in another concrete domain |
+|   | ODS_AC | ODS_AO | ODS_AG | Existing analogous system 2 etc. |
+|   | ODS_OC | DS_O | DS_G | Existing characteristics used for current domain goal/obstacle |
+|   | ODS_C | (same) | (same) | New characteristics or combo of existing characteristics used for current domain goal/obstacle |
 
 # Scraps:
 
