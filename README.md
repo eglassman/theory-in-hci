@@ -160,11 +160,11 @@ O : other, i.e., characteristic of another system
 
 ## Structure
 ```
-| T | P | NDS_O | NDS_G | Most abstract level |
+| T | P      | NDS_O  | NDS_G  | Most abstract level |
 |   | ODS_AC | ODS_AO | ODS_AG | Existing analogous system 1 in another concrete domain |
 |   | ODS_AC | ODS_AO | ODS_AG | Existing analogous system 2 etc. |
-|   | ODS_OC | DS_O | DS_G | Existing characteristics used for current domain goal/obstacle |
-|   | ODS_C | (same) | (same) | New characteristics or combo of existing characteristics used for current domain goal/obstacle |
+|   | ODS_OC | DS_O   | DS_G   | Existing characteristics used for current domain goal/obstacle |
+|   | ODS_C  | (same) | (same) | New characteristics or combo of existing characteristics used for current domain goal/obstacle |
 ```
 
 # Scraps:
