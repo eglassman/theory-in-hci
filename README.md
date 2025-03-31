@@ -164,8 +164,8 @@ O : other, i.e., characteristic of another system
 | T | P      | NDS_O  | NDS_G  |                                        | Most abstract level |
 |   | ODS_AC | ODS_AO | ODS_AG | Evidence from published paper          | Existing analogous system 1 in another concrete domain |
 |   | ODS_AC | ODS_AO | ODS_AG | Evidence from published paper          | Existing analogous system 2 etc. |
-|   | ODS_OC | DS_O   | DS_G   | Need-finding Evidence or Argumentation | Existing characteristics used for current domain goal/obstacle, can be informed by needfinding |
-|   | ODS_C  | (same) | (same) | Evidence from current user study       | New characteristics or combo of existing characteristics used for current domain goal/obstacle |
+|   |  DS_OC | DS_O   | DS_G   | Need-finding Evidence or Argumentation | Existing characteristics used for current domain goal/obstacle, can be informed by needfinding |
+|   |  DS_C  | (same) | (same) | Evidence from current user study       | New characteristics or combo of existing characteristics used for current domain goal/obstacle |
 ```
 
 # Scraps:
