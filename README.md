@@ -22,6 +22,8 @@ and/or
 
 Note that a theory does not need to already have a name and an accumulation of papers collecting data that support and refine it. It can be the design argument [cite] behind a particular system, which offers an explanation for why this particular system works and implicitly predicts why other systems with the same characteristics should work. It can be the more abstracted summary of findings from a grounded theory analysis of qualitative interviews.
 
+[ ] insert essay in yellow big notebook about pitfalls/traps
+
 # Data format
 
 ## Theory/thesis/concept/actionable principle schema-less "database"
@@ -126,6 +128,30 @@ Note that theories have names and iterated on abstract sentences that explain te
 
 1. Infrastructure for annual census of theory in HCI at, say, CHI, to answer questions of "basic current curricular needs", areas of over and under-examination, disambiguate different concepts with similar or same names, disambiguate same concept with different names, etc.
 2. Contribute to / accumulate evidence in favor of theory refinement and emerging new theory 
+
+# Argumentation Structure within a particular paper of theory-driven system/intervention development (rather than deriving actionable principles)
+
+## Definitions
+
+### Nouns
+T_{1-N} : Theories which may depend on/be derived from concepts, frameworks, etc.
+
+P_{1-N} : Actionable principles informed by theory and empirical evidence of evaluated systems and studies run up until this point
+
+C_{1-N} : Characteristics of a system, i.e., features of a system that may or may not reflect actionable principles but which may or may not help users get around the obstacles to accomplish existing or new goals
+
+O_{1-N} : Obstacles that a user may face in trying to accomplish existing or new goals unaided, or which access to tools with a particular set of characteristics.
+
+G_{1-N} : Goals that a user is, wants to, or could pursue if obstacles in the way were circumvented
+
+E_{1-N} : Study findings, etc. that support or refute whether and how certain characteristics helped users get around obstacles to goals, given specified experimental/observational setup (does not verify that the characteristics fully or even partly instantiate any principles they're designated as instantiated, or whether the principles as expressed do follow from the intended theory, though one can speculate that if expectations (derived from the theory) about the impact of the intervention on users is fulfilled, that the previous two concerns are fulfilled)
+
+### Adjectives
+ODS : other domain-specific
+DS : domain-specific
+NDS : non-domain-specific
+A : analogous, i.e., reflecting a principle or obstacle in a different domain
+O : other, i.e., characteristic of another system
 
 # Scraps:
 
