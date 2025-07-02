@@ -1,0 +1,9 @@
+observations = [
+  {
+    "uid": 0,
+    "summary_observation": {
+      "quote": "We discuss how analogical processes interact with the child's changing knowledge base to predict the course of learning, from conservative to domain-general understanding.",
+      "source": 0
+    },
+    "evidence" : {"text/quote": "", "source":},
+    "relevant_theories": [0]}]

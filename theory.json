@@ -1,12 +1,52 @@
-theory = [{
-"uid": 0,
-"theory_name": "Structural Mapping Theory",
-"alternative_names": ["Structural Alignment Theory"],
-"theory_in_sentences": "Describes the characteristics of the process by which people compare objects, attend to similarities and differences, form schema, etc. [see Analogy and Abstraction to fill out this list",
-"early_key_papers": [uid, ...],
-"key_summative_papers_or_books": [uid, ...],
-"key_authors": ["Gentner"],
-"source_field": "Psychology",
-"relevant_purposes": "Learning/developing abstract structured knowledge from analogical comparison of concrete examples",
-  "relevant_quotes": [{"quote": "abstract knowledge are variously referred to as schemas, rules, abstractions, principles, or overhypotheses. Many such abstractions are expressed as relational categories—categories like evidence, counterfactual, and proportion, and on a more mundane level, bargain, ally, and rescue.", "source_paper": 0}]
-}]
+theories = [
+  {
+    "uid": 0,
+    "theory_name": "Structural Mapping Theory",
+    "alternative_names": [
+      "Structural Alignment Theory"
+    ],
+    "hypothesis":[
+      {
+      "quote": "We propose that analogical generalization drives much of this early learning and allows children [and adults] to generate new abstractions from experience.",
+      "source": 0
+      }
+    ],
+    "short_theory_descriptions": [
+      {
+        "text": "Describes the characteristics of the process by which people compare objects, attend to similarities and differences, form schema, etc. [see Analogy and Abstraction to fill out this list",
+        "source": "Elena"
+      },
+      {
+        "text": "A description of human's analogical generalization, supported by evidence collected from both children and adults.",
+        "source": "0"
+      },
+
+    ],
+    "purposes_in_source_field": [
+      {
+        "purposes": [
+          "Answer a 'central question' in human development': 'how young children gain knowledge so fast'",
+          "characterize 'analogical generalization in both children and adults'"
+        ],
+        "source": 0
+      }
+    ],
+    "early_key_papers": [
+      "uid_int"
+    ],
+    "key_summative_sources": [
+      0
+    ],
+    "key_authors": [
+      "Gentner"
+    ],
+    "source_field": "Psychology",
+    "relevant_engineering_purposes": "Learning/developing abstract structured knowledge from analogical comparison of concrete examples",
+    "relevant_quotes": [
+      {
+        "quote": "abstract knowledge are variously referred to as schemas, rules, abstractions, principles, or overhypotheses. Many such abstractions are expressed as relational categories—categories like evidence, counterfactual, and proportion, and on a more mundane level, bargain, ally, and rescue.",
+        "source": 0
+      }
+    ]
+  }
+]
