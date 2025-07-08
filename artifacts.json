@@ -1,7 +1,13 @@
 artifacts = [{
   "uid": 0,
   "name": "AbstractExplorer"
-}]
+},{
+  "uid": 1,
+  "name": "CorpusStudio"
+  },
+{"uid":2, "name": "PDC grid view"},
+{"uid": 3, "name": "PDC interleaved view"},
+{"uid": 4, "name": "Examplore"}]
 
 characteristics = [{
   "uid": 0,

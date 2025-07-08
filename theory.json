@@ -48,5 +48,25 @@ theories = [
         "source": 0
       }
     ]
-  }
+  },
+  {"uid": 1,
+  "theory_name": "Conceptual blending theory",
+  "alternative_names": "framework of conceptual blending",
+  "short_theory_descriptions": [
+    {"quote": "a useful framework for considering the joint contributions and mutual constraints of mental and material structure. Projecting material structure into a blended space can stabilize the conceptual blend.",
+      "source": 1},
+      {"quote": "A conceptual blend operates in two input mental spaces to yield a third space, the blend. Partial structure from the input spaces is projected into the blended space, which has emergent structure of its own. The emergent structure arises in three interrelated ways: Composition: Taken together, the projections from the inputs make new relations available that did not exist in the separate inputs. Completion: Knowledge of background frames, cognitive and cultural models, allows the composite structure projected into the blend from the inputs to beviewed as part of a largerself-contained structure in the blend. The pattern in the blend triggered by the inherited structures is ‘completed’ into the larger, emergent structure. Elaboration: The structure in the blend can then be elaborated. This is called ‘running the blend.’ It consists of cognitive work performed within the blend, according to its own emergent logic.", "source": 2, "pages": "150-151"},
+      {"quote": "The theory of conceptual blending and mental spaces deals with abstract models of the kinds we usually think of as mental models.", "source": 1},
+      {"quote": "Various elements of the input spaces are selectively mapped to the blended space. In the blended space, new inferences are possible. [relevant artifact: 2] In fact, some new inferences become automatic. [relevant artifact: 3]", "source":1,
+      "artifacts_that_may_be_explained": [2,3]},
+      {"quote": "In most treatments of conceptual integration, all input spaces are strictly mental constructs.", "source": 1}
+  ],
+  "key_summative_sources": 2
+},
+{"uid": 2,
+"theory_name": "Gestalt principles"},
+{"uid": 3,
+"theory_name": "Interaction substrates",
+"source_field": "HCI",
+"key_papers": [3]}
 ]

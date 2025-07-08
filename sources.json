@@ -1,4 +1,11 @@
 sources = [{
   "uid": 0,
   "bibtex": "@article{gentner2017analogy, title={Analogy and abstraction},author={Gentner, Dedre and Hoyos, Christian},journal={Topics in cognitive science},volume={9},number={3},pages={672--693},year={2017},publisher={Wiley Online Library}}"
-}]
+},{"uid": 1,
+"title":"Material anchors for conceptual blends"},
+{"uid": 2,
+"citation": "Fauconnier, Gilles, Turner, Mark, 2002. The Way We Think. Basic Books, New York.",
+"encountered in source": 1},
+{"uid":3,
+"title": "Interaction Substrates: Combining Power and Simplicity in Interactive Systems"}
+]
