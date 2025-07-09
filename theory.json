@@ -32,7 +32,61 @@ theories = [
         "quote": "Comparison involves a process of structural alignment and mapping that leads to learning via abstraction, rerepresentation, inference-projection, and difference detection.",
         "source": 4,
         "concepts_referenced": [
-          1, 12, 14, 15, 16, 17, 18
+          1,
+          12,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      },
+      {
+        "quote": "According to structure-mapping theory (Gentner, 1983), human comparison involves a process of establishing a structural alignment between two represented situations and then projecting inferences. The commonalities and differences between two situations are found by determining the maximal structurally consistent alignment between the representations of the two situations (Falkenhainer et al., 1989; Gentner & Markman, 1997; Markman & Gentner, 1993a; Medin, Goldstone, & Gentner, 1993).",
+        "source": 4,
+        "concepts_referenced": [
+          1,
+          12,
+          14,
+          17,
+          18
+        ],
+        "early_key_papers": [
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "quote": "The mapping process is operationalized in the Structure Mapping Engine (SME; Falkenhainer et al., 1989; Forbus, Gentner, & Law, 1995).",
+        "source": 4,
+        "concepts_referenced": [
+          0,
+          15
+        ],
+        "early_key_papers": [
+          9,
+          10
+        ],
+      },
+      {
+        "quote": "SME operates in a local-to-global fashion (see Fig. 1 <Caption: Overview of SME (the Structure-mapping Engine) showing how an initially blind, local-to-global process produces structurally consistent inferences.>). It begins with a local, structurally blind free-forall: All possible matches between individual elements of the two representations are found (resulting in many inconsistencies). In stage 2, these matches are combined into several structurally consistent clusters (kernels); finally, in stage 3, some of the kernels (a structurally consistent set) are combined into an overall mapping, with the largest and most deeply connected kernels being favored in the merge process (again, the systematicity principle). The resulting alignment consists of an explicit set of correspondences between the elements of the two representations.",
+        "source": 4,
+        "concepts_referenced": [
+          0,
+          1,
+          14,
+          15
+        ],
+        "figures": "4-1.png"
+      },
+      {
+        "quote": "As a natural outcome of the alignment process, candidate inferences are projected from the base to the target. These inferences are propositions connected to the common system in one analog, but not yet present in the other.",
+        "source": 4,
+        "concepts_referenced": [
+          14,
+          17
         ]
       }
     ],
@@ -44,9 +98,6 @@ theories = [
         ],
         "source": 0
       }
-    ],
-    "early_key_papers": [
-      "uid_int"
     ],
     "key_summative_sources": [
       0
