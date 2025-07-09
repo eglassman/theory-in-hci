@@ -1,8 +1,15 @@
-exampes = [
-  {"uid": 0,
-  "source": 1,
-"quote": "Consider a line of people queuing for theatre tickets. This cultural practice creates a spatial memory for the order of arrival of clients. The participants use their own bodies and the locations of their bodies in space to encode order relations. The gestalt principle of linearity makes the line configuration perceptually salient. Our perceptual systems have a natural bias to find line-like structure. But seeing a line is not sufficient to make a queue. Not all lines are queues. Soldiers standing at attention in formation form a line, but not a queue. In order to see a line as a queue, one must project conceptual structure onto the line. The conceptual structure is the notion of sequential order. For our purposes, we will represent this directional ordering as a trajector (Langacker, 1987). Conceptually blending the physical structure of the line with an imagined directional trajector turns the line into a queue (see Fig. 2).",
-"concepts_explained_or_related": [3,6],
-"theories_explained_or_related": [1,2],
-}
+examples = [
+  {
+    "uid": 0,
+    "source": 1,
+    "quote": "Consider a line of people queuing for theatre tickets. This cultural practice creates a spatial memory for the order of arrival of clients. The participants use their own bodies and the locations of their bodies in space to encode order relations. The gestalt principle of linearity makes the line configuration perceptually salient. Our perceptual systems have a natural bias to find line-like structure. But seeing a line is not sufficient to make a queue. Not all lines are queues. Soldiers standing at attention in formation form a line, but not a queue. In order to see a line as a queue, one must project conceptual structure onto the line. The conceptual structure is the notion of sequential order. For our purposes, we will represent this directional ordering as a trajector (Langacker, 1987). Conceptually blending the physical structure of the line with an imagined directional trajector turns the line into a queue (see Fig. 2).",
+    "concepts_explained_or_related": [
+      3,
+      6
+    ],
+    "theories_explained_or_related": [
+      1,
+      2
+    ],
+  }
 ]
