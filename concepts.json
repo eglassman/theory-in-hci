@@ -5,7 +5,7 @@ concepts = [
     "alternative_names": [
       "SME"
     ],
-    "concept_definition": {"text": "Mental process of finding an alignment of two objects' structures", "source": "Elena"},
+    "concept_definition": [{"text": "Mental process of finding an alignment of two objects' structures", "source": "Elena"}]
     "characteristics": [
       {
         "description": "",
@@ -23,7 +23,8 @@ concepts = [
     "source_field": "Psychology",
     "supporting_theories": [
       0
-    ]
+    ],
+    "figures": ["4-1"]
   },
   {
     "uid": 1,
@@ -170,7 +171,7 @@ concepts = [
   },
   {
     "uid": 15,
-    "concept_name": "structural mapping",
+    "concept_name": "mapping",
     "concept_definition": {},
     "early_key_papers": [],
     "key_summative_papers_or_books": [],
