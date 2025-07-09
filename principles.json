@@ -1,55 +1,89 @@
-principles = [{
-"uid": 0,
-"actionable_principle_name": "Reify pre-computed commonalities and/or differences of corresponding components within an alignment",
-"alternative_names": [],
-"further_description": "If computed literally without reasoning about possible structural alignments, not based on literal similarity alone---otherwise it could get in the way of identifying more latent structural similarities and differences.",
-"papers_demonstrating_its_use_clearly": [uid, ...],
-"supporting_theories": [0],
-"concept_dependencies": []
-},
-{
-"uid": 1,
-"actionable_principle_name": "Reify pre-computed parsings of objects into structures",
-"alternative_names": [],
-"further_description": "May require a pre-defined representation with which to parse objects",
-"papers_demonstrating_its_use_clearly": [uid, ...],
-"supporting_theories": [0],
-"concept_dependencies": [1]
-},
-{
-"uid": 2,
-"actionable_principle_name": "Reify pre-computed possible partial or complete structural alignment(s)",
-"alternative_names": ["Pre-compute and reify intended structural mapping"],
-"further_description": "",
-"papers_demonstrating_its_use_clearly": [uid, ...],
-"supporting_theories": [0],
-"concept_dependencies": [0]
-},
-{
-"uid": 3,
-"actionable_principle_name": "Minimize spatiotemporal distance between alignable objects, especially corresponding components",
-"alternative_names": ["direct spatial alignment", "spatiotemporal proximity"],
-"further_description": "",
-"papers_demonstrating_its_use_clearly": [uid, ...],
-"supporting_theories": [0],
-"concept_dependencies": [0]
-},
+principles = [
   {
-"uid": 4,
-"actionable_principle_name": "Reify pre-computed non-literal commonalities",
-"alternative_names": ["Compute and reify common labels"],
-"further_description": "",
-"papers_demonstrating_its_use_clearly": [uid, ...],
-"supporting_theories": [0],
-"concept_dependencies": []
-},
+    "uid": 0,
+    "actionable_principle_name": "Reify pre-computed commonalities and/or differences of corresponding components within an alignment",
+    "alternative_names": [],
+    "further_description": "If computed literally without reasoning about possible structural alignments, not based on literal similarity alone---otherwise it could get in the way of identifying more latent structural similarities and differences.",
+    "papers_demonstrating_its_use_clearly": [uid, ...
+    ],
+    "supporting_theories": [
+      0
+    ],
+    "concept_dependencies": []
+  },
   {
-"uid": 5,
-"actionable_principle_name": "Reify pre-computed literal differences",
-"alternative_names": [""],
-"further_description": "",
-"papers_demonstrating_its_use_clearly": [uid, ...],
-"supporting_theories": [0],
-"concept_dependencies": []
-}
+    "uid": 1,
+    "actionable_principle_name": "Reify pre-computed parsings of objects into structures",
+    "alternative_names": [],
+    "further_description": "May require a pre-defined representation with which to parse objects",
+    "papers_demonstrating_its_use_clearly": [uid, ...
+    ],
+    "supporting_theories": [
+      0
+    ],
+    "concept_dependencies": [
+      1
+    ]
+  },
+  {
+    "uid": 2,
+    "actionable_principle_name": "Reify pre-computed possible partial or complete structural alignment(s)",
+    "alternative_names": [
+      "Pre-compute and reify intended structural mapping"
+    ],
+    "further_description": "",
+    "papers_demonstrating_its_use_clearly": [uid, ...
+    ],
+    "supporting_theories": [
+      0
+    ],
+    "concept_dependencies": [
+      0
+    ]
+  },
+  {
+    "uid": 3,
+    "actionable_principle_name": "Minimize spatiotemporal distance between alignable objects, especially corresponding components",
+    "alternative_names": [
+      "direct spatial alignment",
+      "spatiotemporal proximity"
+    ],
+    "further_description": "",
+    "papers_demonstrating_its_use_clearly": [uid, ...
+    ],
+    "supporting_theories": [
+      0
+    ],
+    "concept_dependencies": [
+      0
+    ]
+  },
+  {
+    "uid": 4,
+    "actionable_principle_name": "Reify pre-computed non-literal commonalities",
+    "alternative_names": [
+      "Compute and reify common labels"
+    ],
+    "further_description": "",
+    "papers_demonstrating_its_use_clearly": [uid, ...
+    ],
+    "supporting_theories": [
+      0
+    ],
+    "concept_dependencies": []
+  },
+  {
+    "uid": 5,
+    "actionable_principle_name": "Reify pre-computed literal differences",
+    "alternative_names": [
+      ""
+    ],
+    "further_description": "",
+    "papers_demonstrating_its_use_clearly": [uid, ...
+    ],
+    "supporting_theories": [
+      0
+    ],
+    "concept_dependencies": []
+  }
 ]
