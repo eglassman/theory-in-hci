@@ -26,6 +26,10 @@ artifacts = [
   {
     "uid": 6,
     "name": "Mesotext"
+  },
+  {
+    "uid": 7,
+    "name": "grid view"
   }
 ]
 

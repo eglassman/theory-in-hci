@@ -8,5 +8,54 @@ evidence = [
     ],
     "study_context": "",
     "relevant_results": []
-  }
-]
+  },
+  {
+          "uid": 1,
+          "artifact_uid": [
+              5,
+              6
+          ],
+          "theory_instantiated": 0,
+          "concept_instantiated": 0,
+          "Theory_and_theory_informed_predictions": [
+              {
+                  "text": "The theory predicts that humans first attend to literal component-value similarities in a 'free-for-all' (irrespective of structure).",
+                  "Source": "TBD"
+              },
+              "The rendering of objects can manipulate literal similarity of components' values across objects, e.g., rendering the same word in two different paragraphs in the same color, affecting the order in which local identity matches are perceived or whether they are ultimately perceived at all",
+              "The SME that theory predicts is in human's minds (internal SME) may accept the representation and mapping that the external SME computed.",
+              "The external SME might help people—more quickly and/or more thoroughly and/or with less cognitive effort—(0) see options in terms of the representation the SME uses as the basis of alignment (1) compare options (2) filter/select options (3) compose through recombination of representation component values.",
+              "The external SME might harm your ability to see alignments based on a representation that the external SME is not using."
+          ],
+          "evidence_of_concept_operating_as_predicted_by_theory": [],
+          "evidence_of_concept_NOT_operating_as_predicted_by_theory": [
+              {
+                  "quote": "There were no significant differences between the interface conditions for  either [task] for how successful they were at the task (how  likely they were to send the email) nor how long they took. This  suggests that the exploratory features did not obviously impact  participants' ability to do the task.... When  asked which of the two interfaces was easier and which was more  overwhelming, there was no clear preference; participants varied  in which interface they preferred.",
+                  "source": 11,
+                  "section": "5.6.1",
+                  "author_explanation": "perhaps because the task was easy enough to achieve near perfection in both interfaces",
+                  "Our_explanation": [
+                      "Performance and subjective experience with SME assistance for comparison, filtering, selection, recombination tasks might not be measurably different across just nine options for a low-stakes task.",
+                      "The results aren't the opposite of what was theory predicted; it's simply neutral."
+                  ],
+                  "Study_context": "The artifact was accessible in one interface but not the other (the baseline). The baseline was a linear list of responses with no post-hoc analysis or highlighting. Only 9 LLM responses were shown in each interface."
+              }
+          ]
+      },
+      {
+          "uid": 1,
+          "artifact_uid": [
+              6,
+              7
+          ],
+          "theory_instantiated": 0,
+          "concept_instantiated": 19,
+          "Theory_and_theory_informed_predictions": "[FILL IN FROM CRASH COURSE OVERLEAF 1.7.3]",
+          "evidence_of_concept_operating_as_predicted_by_theory": [
+              {
+                  "Quote": "Some participants appreciated being able to see all responses at once: 'I think that's what's nice about the grid; [the emails] are all right there. And so your eyes can sort of f lutter and dart around as you're reading each one' (P9).""Source": 11,
+                  "Section": "5.6.2"
+              }
+          ],
+      }
+  ]

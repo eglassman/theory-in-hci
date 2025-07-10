@@ -224,5 +224,18 @@ concepts = [
     "supporting_theories": [
       0
     ]
+  },
+  {
+    "uid": 19,
+    "concept_name": "spatial alignment principle",
+    "concept_definition": {},
+    "early_key_papers": [],
+    "key_summative_papers_or_books": [],
+    "key_authors": [],
+    "source_field": ["psychology","visualization"],
+    "relevant_theories": [
+      0,
+      2
+    ]
   }
 ]
