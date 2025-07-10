@@ -44,5 +44,8 @@ sources = [
     "uid": 10,
     "title": "Forbus, Gentner, & Law, 1995 from source 4"
   },
-]
+  {
+    "uid": 11,
+    "title": "Mesotext CHI24"
+  }
 ]

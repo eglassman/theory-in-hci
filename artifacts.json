@@ -18,6 +18,14 @@ artifacts = [
   {
     "uid": 4,
     "name": "Examplore"
+  },
+  {
+    "uid": 5,
+    "name": "PDC"
+  },
+  {
+    "uid": 6,
+    "name": "Mesotext"
   }
 ]
 

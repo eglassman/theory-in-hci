@@ -106,7 +106,14 @@ theories = [
       "Gentner"
     ],
     "source_field": "Psychology",
-    "relevant_engineering_purposes": "Learning/developing abstract structured knowledge from analogical comparison of concrete examples",
+    "relevant_tasks": [
+      ["Learning/developing abstract structured knowledge from analogical comparison of concrete examples / abstraction", "schema formation", "analogical generalization"],
+      ["inference projection"],
+      ["(re)representation learning"],
+      ["difference detection", "comparison", "commonality detection"],
+      ["selection", "filter"],
+      ["recombination"]
+    ],
     "relevant_quotes": [
       {
         "quote": "abstract knowledge are variously referred to as schemas, rules, abstractions, principles, or overhypotheses. Many such abstractions are expressed as relational categories—categories like evidence, counterfactual, and proportion, and on a more mundane level, bargain, ally, and rescue.",
