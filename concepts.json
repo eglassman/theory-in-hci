@@ -237,5 +237,13 @@ concepts = [
       0,
       2
     ]
+  },
+  {
+    "uid": 20,
+    "concept_name": "local identity match support",
+    "prior_not_always_correct_concept_name": "SME support (SMES)",
+    "explanatory_context": ["4-1.png"],
+    "relevant_theories": 0,
+    "early_key_papers": []
   }
 ]

@@ -53,9 +53,63 @@ evidence = [
           "Theory_and_theory_informed_predictions": "[FILL IN FROM CRASH COURSE OVERLEAF 1.7.3]",
           "evidence_of_concept_operating_as_predicted_by_theory": [
               {
-                  "Quote": "Some participants appreciated being able to see all responses at once: 'I think that's what's nice about the grid; [the emails] are all right there. And so your eyes can sort of f lutter and dart around as you're reading each one' (P9).""Source": 11,
+                  "Quote": "Some participants appreciated being able to see all responses at once: 'I think that's what's nice about the grid; [the emails] are all right there. And so your eyes can sort of flutter and dart around as you're reading each one' (P9).",
+                  "Source": 11,
                   "Section": "5.6.2"
+              },
+              {
+                "quote": "These participants also noted that, in the baseline interface, needing to scroll to revisit responses was challenging because 'if you want to reference the first email that you read versus the ninth, you have to scroll up and then you lose the view of the ninth one' (P9).",
+                "source": 11,
+                "Section": "5.6.2"
               }
           ],
+      },
+      {
+        "uid": 2,
+        "artifact_uid": [
+          2,
+          5,
+          6
+        ],
+        "theory_instantiated": 0,
+        "concept_instantiated": [0,19],
+        "Theory_and_theory_informed_predictions": ["An external SME will make comparison easier."],
+        "evidence_of_concept_operating_as_predicted_by_theory": [
+          {"quote":"Some participants appreciated how the highlighting features allowed them to easily compare segments of responses (using PDC in the Grid Layout)....",
+          "source":11,
+        "section": "5.6.2"}
+      },
+      {
+        "uid": 3,
+        "artifact_uid": [
+          6,
+          7
+        ],
+        "theory_instantiated": 0,
+        "concept_instantiated": 20,
+        "Theory_and_theory_informed_predictions": ["Concept" + 20 + " will make mental filtering easier."],
+        "evidence_of_concept_operating_as_predicted_by_theory": [
+          {"quote":"Some participants appreciated how the highlighting features allowed them to easily ... identify stylistic choices that matched their own style (using the Unique Words feature).",
+          "source":11,
+        "section": "5.6.2"}
+      },
+      {
+        "uid": 3,
+        "artifact_uid": [
+          2,
+          3,
+          5,
+          6,
+          7
+        ],
+        "theory_instantiated": 0,
+        "concept_instantiated": [0,19,20],
+        "Theory_and_theory_informed_predictions": [{"quote":"[T]he grid layout should help users compare more LLM responses because the spatial arrangement assists their memory.","source":11}],
+        "evidence_of_concept_NOT_operating_as_predicted_by_theory": [
+          {"quote":"[O]ther participants said that the exploratory interface felt overwhelming because seeing all nine at a time 'was too much information. ... The [baseline linear view] was more organized' (P1).",
+          "source":11,
+        "section": '5.6.2"}
+      ],
+      "author_explanation": "Participant responses to the two interface conditions seemed to be influenced by their information processing style, something we saw come up in the case studies as well...."
       }
   ]
