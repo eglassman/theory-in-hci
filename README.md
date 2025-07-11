@@ -183,4 +183,8 @@ from which HCI researchers can derive actionable principles to inform HCI work [
 [ ] translate theory in HCI slides from Freiburg
 [ ] is theory a form of meta analysis?
 
+## Evidence collection
+
+[ ] read thoroughly from 5.6.2 in mesotext
+
 # Contributed examples
