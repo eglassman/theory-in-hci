@@ -138,5 +138,72 @@ evidence = [
       }
     ],
     "author_explanation": "Participant responses to the two interface conditions seemed to be influenced by their information processing style, something we saw come up in the case studies as well...."
+  },
+  {
+    "uid": 4,
+    "source": 12,
+    "principle_instantiated": 6,
+    "evidence_of_principle_working_as_expected": {
+      "quote": "In four experiments, this direct alignment led to faster and more accurate comparison than other placements of the same patterns.",
+      "source": 12
+    },
+    "affected_task": 2
+  },
+  {
+    "uid": 5,
+    "source": 12,
+    "principle_instantiated": 7,
+    "affected_task": 3,
+    "evidence_of_principle_working_as_expected": {
+      "quote": "A particularly powerful way to gain insight into relational structure is to compare visual representations (Alfieri, NokesMalach, & Schunn, 2013; Gentner & Namy, 1999; Kurtz & Gentner, 2013; Rau, 2017). For example, people who compare simultaneously presented visual examples of heat-flow are more likely to notice the common phenomena than are those who describe the visuals separately, suggesting that comparison highlights commonalities (Kurtz, Miao, & Gentner, 2001). Visual comparison can also highlight differences (Gentner et al., 2016; Sagi, Gentner, & Lovett, 2012). For example, medical students who compared X-rays of diseased lungs with those of healthy lungs were subsequently better able to identify focal lung diseases in further X-rays (Kok, de Bruin, Robben, & van Merriënboer, 2013).",
+      "source": 12
+    }
+  },
+  {
+    "uid": 6,
+    "source": 12,
+    "principle_instantiated": 8,
+    "affected_task": 2,
+    "evidence_of_principle_working_as_expected": {
+      "quote": "Though humans can detect changes in sequentially presented visuals, comparison of simultaneously presented visuals allows learners to more fluently encode and compare images (e.g., Christie & Gentner, 2010; Larsen, McIlhagga, & Bundesen, 1999). Simultaneous presentation likely minimizes the impact of working memory limitations that impede comparison across sequentially presented displays (Hyun, Woodman, Vogel, Hollingworth, & Luck, 2009). An advantage of simultaneous visual presentation over sequential presentation for learning has been found for a variety of educational domains (e.g., Brooks, Norman, & Allen, 1991; Gadgil, Nokes-Malach, & Chi, 2012; Jee et al., 2014; Kellman, 2013; Matlen, Vosniadou, Jee, & Ptouchkina, 2011; Rittle-Johnson & Star, 2007).",
+      "source": 12
+    }
+  },
+  {
+    "uid": 7,
+    "relevant_concept": 40,
+    "evidence_of_concept_operating_as_predicted_by_theory": {
+      "quote": "This process has been studied as a process of analogical comparison—an alignment of common relational structure (Gattis, 2002; Yuan, Uttal, & Gentner, 2017).",
+      "source": 12
+    },
+    "affected_task": 2,
+    "theory_instantiated": 0,
+  },
+  {
+    "uid": 8,
+    "relevant_concept": 15,
+    "evidence_of_concept_operating_as_predicted_by_theory": {
+      "quote": "During comparisons, people implicitly seek a one-to-one mapping in which like relations are put into correspondence (Doumas, Hummel, & Sandhofer, 2008; Gentner, 1983, 2010; Gentner & Markman, 1997; Jones & Love, 2007; Kokinov & French, 2003; Krawczyk, Holyoak, & Hummel, 2005; Markman & Gentner, 1993; Sagi et al., 2012; Thibaut, French, & Vezneva, 2010).",
+      "source": 12
+    },
+    "theory_instantiated": 0,
+    "affected_task": 2
+  },
+  {
+    "uid": 9,
+    "relevant_concept": 35,
+    "principle_almost_instantiated": 10,
+    "evidence": {
+      "text": "Users can choose between alignments of the entire abstract (which are called aspects) but these is still a single alignment within that aspect, even though the user can change the rendering of that alignment by choosing different horizontal justification settings. Custom aspects allows users to define their own alignments of abstracts, but only if they come up with it themselves; the system does not assist them in seeing multiple possible alignments.",
+      "source": 13
+    }
+  },
+  {
+    "uid": 10,
+    "constructed_artifact": "AI Highlighters complementing AI Summaries",
+    "principles": [
+      10
+    ],
+    "description": "This system performs automatic highlighting (according to 4 pre-defined dimensions) on the variation present in documents but not captured in the AI summary, enabling users to notice variation across those 4 dimensions. Although this is not a Structure-Mapping Engine, the system invites users to assume or look for relationships between all text highlighted in the same color. However, there might be important relationships that are only shared among a subset of texts with the same color, or across texts that do not have the same color or any color assigned at all. Therefore, the support for seeing the 4 aspects may interfere with users perceiving relationships (i.e., information) pertaining to topics beyond the 4th dimension."
   }
-  ]
+]

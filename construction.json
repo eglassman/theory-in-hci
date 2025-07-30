@@ -1,0 +1,16 @@
+construction = [
+  {
+    "uid": 0,
+    "hypothetical_artifact_short_description": "Boosting-inspired salience modulation with respect to an AI summary",
+    "principles": [
+      4
+    ],
+    "description": "Commonalities across documents in a collection are determined, greyed out in their original (still visible documents), and abstracted into a summary.",
+    "most_related_existing_artifact": 8
+  },
+  {
+    "uid": 1,
+    "hypothetical_artifact_short_description": "AI highlighters++",
+    "description_short": "Highlight all variation not covered by summary, not limited to a fixed pre-defined number of aspects"
+  }
+]

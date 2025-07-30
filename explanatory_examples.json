@@ -11,5 +11,26 @@ examples = [
       1,
       2
     ],
+  },
+  {
+    "uid": 1,
+    "source": 12,
+    "quote": "Humans have a uniquely sophisticated ability to see past superficial features and to understand the relational structure of the world around us. This ability often requires that we compare structures, finding commonalities and differences across visual depictions that are arranged in space, such as maps, graphs, or diagrams.",
+    "concepts_explained_or_related": [
+      38,
+      39
+    ],
+    "theories_explained_or_related": [
+      0
+    ],
+    "tasks_explained_or_related": [
+      2
+    ]
+  },
+  {
+    "uid": 2,
+    "source": 12,
+    "quote": "Given that simultaneous visual comparison is a critical format for learning, it is important to investigate the most effective ways to present such comparisons. In visual figures, such as those shown in Figure 1, much of the critical information is conveyed by the spatial configuration: For example, the molecular notation of Ö C Ö differs importantly from Ö Ö C. Comparing two visuals requires comparing not only their concrete elements, but also the spatial relational structure of those elements. As another illustration, in the first column of Figure 1, comparing the three colored bars (dark gray, black, and light gray) to the three legend categories (A, B, and C) is easiest when the viewer can quickly match each of the elements in one set to their corresponding elements in the other set, allowing the viewer to carry out only three comparisons, out of a total of nine possible pairings of elements between the graphed values and legend entries (three appropriate, and six inappropriate). But if this matching process is not efficient, the viewer could be slowed by taking the time to compare inappropriate pairings. This inefficient matching may also increase the likelihood of making erroneous matchings. Thus, visual designs that facilitate efficient spatial matching should speed up comparison in displays that present visuals simultaneously.",
+    "tasks_explained_or_related": 2
   }
 ]

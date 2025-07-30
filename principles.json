@@ -45,10 +45,14 @@ principles = [
     "uid": 3,
     "actionable_principle_name": "Minimize spatiotemporal distance between alignable objects, especially corresponding components",
     "alternative_names": [
-      "direct spatial alignment",
       "spatiotemporal proximity"
     ],
-    "further_description": "",
+    "further_description": [
+      {
+        "quote": "In a visual comparison, this mapping should be most fluent when visual representations are placed so that their corresponding elements and relations are readily matched. That is, the comparison process should be more fluent to the degree that (1) the intended relational correspondences are readily apparent and (2) potential competing correspondences are minimized.",
+        "source": 12
+      }
+    ],
     "papers_demonstrating_its_use_clearly": [uid, ...
     ],
     "supporting_theories": [
@@ -85,5 +89,66 @@ principles = [
       0
     ],
     "concept_dependencies": []
+  },
+  {
+    "uid": 6,
+    "actionable_principle_name": "Placed [objects] so that their corresponding elements and relations are readily matched (or make more direct alignment specific given principle 3)",
+    "short_principle_name": "Use direct alignment",
+    "alternative_names": "direct spatial alignment",
+    "source": 12,
+    "further_description": [
+      {
+        "quote": "Place 'visuals ... perpendicular to their structural axes, such that the matching components of the visuals are in direct alignment.'",
+        "source": 12
+      },
+      {
+        "quote": "Here we suggest a new principle of spatial alignment, whereby visual comparison is substantially more efficient when visuals are placed perpendicular to their structural axes, such that the matching components of the visuals are in direct alignment.",
+        "source": 12
+      },
+      {
+        "quote": "We propose the spatial alignment principle—that visual comparison is more efficient when the visual representations have their principle axes parallel and are placed orthogonally to their principle axes (see Figure 1).",
+        "source": 12
+      }
+    ],
+    "supporting_theories": [
+      0
+    ],
+    "evidence_for_relevant_tasks": 4
+  },
+  {
+    "uid": 7,
+    "actionable_principle_name": "To potentially gain insights into relational structure (of objects), compare visual representations",
+    "supporting_theories": [
+      0
+    ],
+    "concept_dependencies": [
+      38
+    ],
+    "evidence_for_relevant_tasks": 5
+  },
+  {
+    "uid": 8,
+    "actionable_principle_name": "Present comparable objects simultaneously",
+    "supporting_theories": [
+      0
+    ],
+    "evidence_for_relevant_tasks": 6
+  },
+  {
+    "uid": 9,
+    "actionable_principle_name": "Facilitate efficient spatial mapping",
+    "supporting_theories": [
+      0
+    ],
+    "examples_for_relevant_tasks":
+  },
+  {
+    "uid": 10,
+    "actionable_principle_name": "Support users' perception of/discovery of/specification of multiple possible alignments",
+    "further_description": [
+      "Don't use direct alignment if there are multiple alignments that you want the user to consider, unless they can toggle between them each in direct alignment.",
+      "There may be multiple local maxima in alignment-space, with respect to human preferences, in addition to multiple roughly equivalently attractive alignments.",
+      "For specification, allow the user to tell the system what factors they want priortized in the alignment process."
+    ]
   }
 ]

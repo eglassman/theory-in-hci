@@ -47,5 +47,13 @@ sources = [
   {
     "uid": 11,
     "title": "Mesotext CHI24"
+  },
+  {
+    "uid": 12,
+    "title": "Spatial Alignment Facilitates Visual Comparison"
+  },
+  {
+    "uid": 13,
+    "title": "AbstractExplorer"
   }
 ]

@@ -1,0 +1,44 @@
+tasks = [
+  {
+    "uid": 0,
+    "task_name": "inference projection"
+  },
+  {
+    "uid": 1,
+    "task_name": "(re)representation learning"
+  },
+  {
+    "uid": 2,
+    "task_name": [
+      "difference detection",
+      "comparison",
+      "commonality detection"
+    ],
+    "relevant_theories": [
+      0,
+      1
+    ]
+  },
+  {
+    "uid": 3,
+    "task_name": [
+      "Learning/developing abstract structured knowledge from analogical comparison of concrete examples / abstraction",
+      "schema formation",
+      "analogical generalization",
+      "see relational structure"
+    ]
+  },
+  {
+    "uid": 4,
+    "task_name": [
+      "selection",
+      "filter"
+    ]
+  },
+  {
+    "uid": 5,
+    "task_name": [
+      "recombination"
+    ]
+  },
+]

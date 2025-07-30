@@ -30,6 +30,10 @@ artifacts = [
   {
     "uid": 7,
     "name": "grid view"
+  },
+  {
+    "uid": 8,
+    "name": "AI Highlighters"
   }
 ]
 
