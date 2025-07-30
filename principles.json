@@ -84,6 +84,22 @@ principles = [
     "supporting_theories": [
       0
     ],
-    "concept_dependencies": []
-  }
+    "concept_dependencies": [],
+  },
+  {
+    "uid": 7,
+    "actionable_principle_name": "Compare visual representations to allow for  insights into relational structure",
+    "alternative_names": [
+      ""
+    ],
+    "further_description": "A particularly powerful way to gain insight into relational structure is to compare visual representations (Alfieri, NokesMalach, & Schunn, 2013; Gentner & Namy, 1999; Kurtz & Gentner, 2013; Rau, 2017). For example, people who compare simultaneously presented visual examples of heat-flow are more likely to notice the common phenomena than are those who describe the visuals separately, suggesting that comparison highlights commonalities (Kurtz, Miao, & Gentner, 2001). Visual comparison can also highlight differences (Gentner et al., 2016; Sagi, Gentner, & Lovett, 2012). For example, medical students who compared X-rays of diseased lungs with those of healthy lungs were subsequently better able to identify focal lung diseases in further X-rays (Kok, de Bruin, Robben, & van Merriënboer, 2013).",
+    "papers_demonstrating_its_use_clearly": [
+      12
+    ],
+    "supporting_theories": [
+      0
+    ],
+    "concept_dependencies": [],
+    "figures": ['12-4']
+  },
 ]
