@@ -265,11 +265,15 @@ concepts = [
     "relevant_principles": 6,
     "definition": [
       {
-        "quote": "[A]ccording to the spatial alignment principle, the fluency of this spatial alignment process should be greatest when the visuals are placed vertically with their axes parallel, which we call a direct alignment.",
+        "quote": "[A]ccording to the spatial alignment principle, the fluency of this spatial alignment process should be greatest [Figure 1] when the visuals are placed vertically with their axes parallel, which we call a direct alignment.",
         "source": 12
       },
       {
         "quote": "In direct spatial alignment, both fluency criteria are satisfied: (1) the corresponding elements and relations are juxtaposed, and (2) corresponding elements are relatively far from other similar but non-corresponding elements that might compete with the intended mapping.",
+        "source": 12
+      },
+      {
+        "quote": "In direct spatial alignment, both fluency criteria are satisfied: (1) the corresponding elements and relations are juxtaposed, and (2) corresponding elements are relatively far from other similar but noncorresponding elements that might compete with the intended mapping.",
         "source": 12
       }
     ],
@@ -283,39 +287,61 @@ concepts = [
     "concept_name": "impeded alignment",
     "relevant_theories": 0,
     "relevant_principles": 6,
-    "definition": {
-      "quote": "Impeded alignment should be difficult, because matching horizontal or vertical positions are no longer diagnostic for matching corresponding elements, and matches should compete for attention with the intervening potential correspondences.",
-      "source": 12
-    },
+    "definition": [
+      {
+        "quote": "Impeded alignment should be difficult, because matching horizontal or vertical positions are no longer diagnostic for matching corresponding elements, and matches should compete for attention with the intervening potential correspondences.",
+        "source": 12
+      },
+      {
+        "quote": "Impeded alignment should be difficult, because matching horizontal or vertical positions are no longer diagnostic for matching corresponding elements, and matches should compete for attention with the intervening potential correspondences.",
+        "source": 12
+      }
     "figures": [
-      "12-1",
-      "12-7"
-    ]
-  },
-  {
-    "uid": 38,
-    "concept_name": "relational structure",
-    "relevant_theories": [
-      0
-    ],
-    "more_description": {
-      "quote": "Reasoning about relational structure is often most powerful when supported by visuospatial representations, such as maps, graphs, and diagrams (Ainsworth, Prain, & Tytler, 2011; Gattis, 2002; Hegarty & Just, 1993; Kellman,  Massey, & Son, 2010; Tversky, 2011; Uttal, Fisher, & Taylor, 2006).",
-      "source": 12
+        "12-1",
+        "12-7"
+      ]
+    },
+    {
+      "uid": 37,
+      "concept_name": "indirect alignment",
+      "definition": [
+        {
+          "quote": "In indirect alignment, as in the rightmost example of Figure 1, the oblique angle between the two visuals makes it more difficult to differentiate competing correspondences.",
+          "source": 12
+        }
+      ]
+    "prior_not_always_correct_concept_name": {},
+      "relevant_theories": 0,
+      "early_key_papers": [],
+      "figures": [
+        "12-1",
+        "12-7"
+      ]
+    },
+    {
+      "uid": 38,
+      "concept_name": "relational structure",
+      "relevant_theories": [
+        0
+      ],
+      "more_description": {
+        "quote": "Reasoning about relational structure is often most powerful when supported by visuospatial representations, such as maps, graphs, and diagrams (Ainsworth, Prain, & Tytler, 2011; Gattis, 2002; Hegarty & Just, 1993; Kellman,  Massey, & Son, 2010; Tversky, 2011; Uttal, Fisher, & Taylor, 2006).",
+        "source": 12
+      }
+    },
+    {
+      "uid": 39,
+      "concept_name": "superfcial features",
+      "relevant_theories": [
+        0
+      ]
+    },
+    {
+      "uid": 40,
+      "concept_name": "analogical comparison",
+      "concept_definition": {
+        "quote": "an alignment of common relational structure",
+        "source": 12
+      }
     }
-  },
-  {
-    "uid": 39,
-    "concept_name": "superfcial features",
-    "relevant_theories": [
-      0
-    ]
-  },
-  {
-    "uid": 40,
-    "concept_name": "analogical comparison",
-    "concept_definition": {
-      "quote": "an alignment of common relational structure",
-      "source": 12
-    }
-  }
-]
+  ]

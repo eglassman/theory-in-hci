@@ -137,6 +137,12 @@ principles = [
   {
     "uid": 9,
     "actionable_principle_name": "Facilitate efficient spatial mapping",
+    "further_description": [
+      {
+        "quote": "The spatial alignment hypothesis holds that visual comparison is most efficient when the two visuals are in direct alignment, and least efficient when the visuals are in impeded alignment.",
+        "source": 12
+      }
+    ]
     "supporting_theories": [
       0
     ],
@@ -150,5 +156,18 @@ principles = [
       "There may be multiple local maxima in alignment-space, with respect to human preferences, in addition to multiple roughly equivalently attractive alignments.",
       "For specification, allow the user to tell the system what factors they want priortized in the alignment process."
     ]
+  },
+  {
+    "uid": 11,
+    "actionable_principle_name": "Use direct alignment for alignments that have no other possible alignments that you want to surface at that time. Indirect and impeded alignments facilitate mapping less and even less efficiently (respectively), especially for purely relational mappings, and can allow for some ambiguity in which alignments are most salient.",
+    "supporting_concept_evidence": [
+      36,
+      37
+    ]
+  },
+  {
+    "uid": 12,
+    "actionable_principle_name": "Use visual variables and other rendering modifications to increase the object similarity between alignable components, since spatial aligment boosts mapping for object matches more than relational matches.",
+    "source": 12
   }
 ]
