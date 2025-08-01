@@ -183,6 +183,8 @@ from which HCI researchers can derive actionable principles to inform HCI work [
 [ ] translate theory in HCI slides from Freiburg
 [ ] is theory a form of meta analysis?
 
+# Links to figures that are only editable online:
+- Figures explaining direct vs impeded vs barriers etc. https://www.figma.com/design/Yvt22BktJdOhIGv6hNxqJP/Untitled?node-id=1-82&t=ekJFcu0yADpGG4kI-1
 ## Evidence collection
 
 [ ] read thoroughly from 5.6.2 in mesotext
