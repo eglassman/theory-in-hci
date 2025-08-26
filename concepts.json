@@ -283,7 +283,7 @@ concepts = [
     ]
   },
   {
-    "uid": 36,
+    "deprecated_uid": 36,
     "concept_name": "impeded alignment",
     "relevant_theories": 0,
     "relevant_principles": 6,
@@ -291,11 +291,8 @@ concepts = [
       {
         "quote": "Impeded alignment should be difficult, because matching horizontal or vertical positions are no longer diagnostic for matching corresponding elements, and matches should compete for attention with the intervening potential correspondences.",
         "source": 12
-      },
-      {
-        "quote": "Impeded alignment should be difficult, because matching horizontal or vertical positions are no longer diagnostic for matching corresponding elements, and matches should compete for attention with the intervening potential correspondences.",
-        "source": 12
       }
+          ]
     "figures": [
         "12-1",
         "12-7"
@@ -343,5 +340,27 @@ concepts = [
         "quote": "an alignment of common relational structure",
         "source": 12
       }
+    },
+    {
+      "uid": 41,
+      "concept_name": "object match"
+    },
+    {
+      "uid": 42,
+      "concept_name": "relational match"
+    },
+    {
+      "uid": 43,
+      "concept_name": "linear alignment",
+      "definition": "Impeded alignment in source 12, but why it's bad doesn't make sense to us as the right explanation."
+    },
+    {
+      "uid": 43,
+      "concept_name": "Competing barriers",
+      "definition": "Objects in between others that share enough characteristics that the mind can start coming up with alignments between it and the objects that were intended to be aligned to each other."
+    },
+    {
+      "uid": 44,
+      "concept_name": "Structurally Consistent Match"
     }
   ]
