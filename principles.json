@@ -1,21 +1,22 @@
 principles = [
   {
     "uid": 0,
-    "actionable_principle_name": "Reify pre-computed commonalities and/or differences of corresponding components within an alignment",
-    "alternative_names": [],
-    "further_description": "If computed literally without reasoning about possible structural alignments, not based on literal similarity alone---otherwise it could get in the way of identifying more latent structural similarities and differences.",
+    "actionable_principle_name": "Invite comparison by reify pre-computed commonalities and/or differences of corresponding components within an alignment",
+    "alternative_names": ["Emphasize alignabled differences"],
+    "further_description": "If computed without reasoning about possible structural alignments, e.g., based on literal similarity alone, it help step 1 of users' internal SME's but also, if it cannot melt away to allow for just focusing on small submappings (kernels) – step 2 in Fig 4-1– it could get in the way of identifying more latent structural similarities and differences.",
     "papers_demonstrating_its_use_clearly": [uid, ...
     ],
     "supporting_theories": [
       0
     ],
-    "concept_dependencies": []
+    "concept_dependencies": [],
+    "constructed_figures": ["smt-animated-diagram", "4-1"]
   },
   {
     "uid": 1,
-    "actionable_principle_name": "Reify pre-computed parsings of objects into structures",
+    "actionable_principle_name": "Invite comparison by reify pre-computed parsings of objects into structures",
     "alternative_names": [],
-    "further_description": "May require a pre-defined representation with which to parse objects",
+    "further_description": "May require a pre-defined (user or system-defined) representation with which to parse objects",
     "papers_demonstrating_its_use_clearly": [uid, ...
     ],
     "supporting_theories": [
@@ -23,15 +24,16 @@ principles = [
     ],
     "concept_dependencies": [
       1
-    ]
+    ],
+    "constructed_figures": ["smt-animated-diagram"]
   },
   {
     "uid": 2,
-    "actionable_principle_name": "Reify pre-computed possible partial or complete structural alignment(s)",
+    "actionable_principle_name": "Invite comparison by reify pre-computed possible, designer-intended, or user-requested partial or complete structural alignment(s)",
     "alternative_names": [
-      "Pre-compute and reify intended structural mapping"
+      "Pre-compute and reify intended or possible structural mappings"
     ],
-    "further_description": "",
+    "further_description": "If partial, these can be small submappings (kernels) – step 2 in Fig 4-1– but if they cannot melt away, it could get in the way of identifying more structurally consistent mappings. If complete, given the representation being used, compute and reify the maximally structurally consistent mapping unless otherwise indicated by the system designer or user’s selections",
     "papers_demonstrating_its_use_clearly": [uid, ...
     ],
     "supporting_theories": [
@@ -39,11 +41,12 @@ principles = [
     ],
     "concept_dependencies": [
       0
-    ]
+    ],
+    "constructed_figures": ["smt-animated-diagram", "4-1"]
   },
   {
     "uid": 3,
-    "actionable_principle_name": "Minimize spatiotemporal distance between alignable objects, especially corresponding components",
+    "actionable_principle_name": "Invite comparison by minimizing spatiotemporal distance between alignable objects, especially corresponding components",
     "alternative_names": [
       "spatiotemporal proximity"
     ],
@@ -60,11 +63,12 @@ principles = [
     ],
     "concept_dependencies": [
       0
-    ]
+    ],
+    "constructed_figures": ["alignment-types-*", "alignment types"]
   },
   {
     "uid": 4,
-    "actionable_principle_name": "Reify pre-computed non-literal commonalities",
+    "actionable_principle_name": "Invite comparison by reify pre-computed non-literal commonalities",
     "alternative_names": [
       "Compute and reify common labels"
     ],
@@ -74,11 +78,12 @@ principles = [
     "supporting_theories": [
       0
     ],
-    "concept_dependencies": []
+    "concept_dependencies": [],
+    "constructed_figures": ["smt-animated-diagram"]
   },
   {
     "uid": 5,
-    "actionable_principle_name": "Reify pre-computed literal differences",
+    "actionable_principle_name": "Invite comparison by reify pre-computed literal differences",
     "alternative_names": [
       ""
     ],
@@ -88,11 +93,12 @@ principles = [
     "supporting_theories": [
       0
     ],
-    "concept_dependencies": []
+    "concept_dependencies": [],
+    "constructed_figures": ["smt-animated-diagram"]
   },
   {
     "uid": 6,
-    "actionable_principle_name": "Placed [objects] so that their corresponding elements and relations are readily matched (or make more direct alignment specific given principle 3)",
+    "actionable_principle_name": "Invite comparison by use direct alignment whenever possible or for what relationships the designer wishes the user to perceive most or that the user has selected to focus on",
     "short_principle_name": "Use direct alignment",
     "alternative_names": "direct spatial alignment",
     "source": 12,
@@ -108,12 +114,17 @@ principles = [
       {
         "quote": "We propose the spatial alignment principle—that visual comparison is more efficient when the visual representations have their principle axes parallel and are placed orthogonally to their principle axes (see Figure 1).",
         "source": 12
+      },
+      {
+        "quote": "The spatial alignment hypothesis holds that visual comparison is most efficient when the two visuals are in direct alignment, and least efficient when the visuals are in impeded alignment.",
+        "source": 12
       }
     ],
     "supporting_theories": [
       0
     ],
-    "evidence_for_relevant_tasks": 4
+    "evidence_for_relevant_tasks": 4,
+    "constructed_figures": ["alignment-types-*", "alignment types"]
   },
   {
     "uid": 7,
@@ -124,11 +135,12 @@ principles = [
     "concept_dependencies": [
       38
     ],
-    "evidence_for_relevant_tasks": 5
+    "evidence_for_relevant_tasks": 5,
+    "constructed_figures": "compare_visual_representations"
   },
   {
     "uid": 8,
-    "actionable_principle_name": "Present comparable objects simultaneously",
+    "actionable_principle_name": "To minimize memory load of comparison, present comparable objects simultaneously",
     "supporting_theories": [
       0
     ],
@@ -136,38 +148,74 @@ principles = [
   },
   {
     "uid": 9,
-    "actionable_principle_name": "Facilitate efficient spatial mapping",
-    "further_description": [
-      {
-        "quote": "The spatial alignment hypothesis holds that visual comparison is most efficient when the two visuals are in direct alignment, and least efficient when the visuals are in impeded alignment.",
-        "source": 12
-      }
-    ]
+    "actionable_principle_name": "To minimize cognitive load of comparison, facilitate efficient spatial mapping / Place [objects] so that their corresponding elements and relations are readily matched",
+    "further_description": [],
     "supporting_theories": [
       0
     ],
-    "examples_for_relevant_tasks":
+    "constructed_figures": ["alignment-types-*", "alignment types"]
   },
   {
     "uid": 10,
-    "actionable_principle_name": "Support users' perception of/discovery of/specification of multiple possible alignments",
+    "actionable_principle_name": "Unless the user is known to want to only focus on apriori known alignment(s), support users' perception of/discovery of/specification of multiple possible alignments",
     "further_description": [
       "Don't use direct alignment if there are multiple alignments that you want the user to consider, unless they can toggle between them each in direct alignment.",
       "There may be multiple local maxima in alignment-space, with respect to human preferences, in addition to multiple roughly equivalently attractive alignments.",
       "For specification, allow the user to tell the system what factors they want priortized in the alignment process."
-    ]
+    ],
+    "constructed_figures": "compare_visual_representations",
+    "constructed_figures": ["influencing-alignment-salience"]
   },
   {
-    "uid": 11,
+    "deprecated_uid": 11,
     "actionable_principle_name": "Use direct alignment for alignments that have no other possible alignments that you want to surface at that time. Indirect and impeded alignments facilitate mapping less and even less efficiently (respectively), especially for purely relational mappings, and can allow for some ambiguity in which alignments are most salient.",
-    "supporting_concept_evidence": [
+    "supporting_concept_definition_evidence": [
       36,
       37
-    ]
+    ],
+    "concepts_referenced": [36,37],
+    "constructed_figures": ["alignment-types-*", "alignment types"]
   },
   {
     "uid": 12,
-    "actionable_principle_name": "Use visual variables and other rendering modifications to increase the object similarity between alignable components, since spatial aligment boosts mapping for object matches more than relational matches.",
-    "source": 12
+    "actionable_principle_name": "Invite comparison by using visual variables and other rendering modifications to increase the object similarity between alignable components.",
+    "source": 12,
+    "constructed_figures": ["alignment-types-text", "alignment-types-colorblockswithtext"]
+  },
+  {
+    "uid": 13,
+    "actionable_principle_name": "Indirect (oblique) alignment is better than linear alignment or no alignment.",
+    "source": 12,
+    "constructed_figures": ["alignment-types-*", "alignment types"]
+  },
+  {
+    "uid": 14,
+    "actionable_principle_name": "To minimize inviting unintended comparisons, avoid competing barriers.",
+    "source": 12,
+    "constructed_figures": ["alignment-types-*", "alignment types"]
+  },
+  {
+    "uid": 15,
+    "actionable_principle_name": "Invite comparison by applying common labels (visual or linguistic)",
+    "constructed_figures": ["structural alignment support tools of smt-animated-diagram", "alignment-types-colorblockswithtexts","[Maybe---or spatiotemporal] within aspect listing of sentences without other features turned on in AbstractExplorer"],
+    "source": 0
+  },
+  {
+    "uid": 16,
+    "actionable_principle_name": "Push as much comparison into perceptual processes, to free up cognitive resources for higher level comparison and reasoning processes (analous to existing visualization principle of aligning the bottoms of bars to allow for easy length comparison, except in this case we're comparing structurally alignable objects)",
+    "further_description": ["Approach: Use characteristics of human perception described in other principles to provoke/invite comparison (at least then it starts at the perceptual level)", "Approach: pre-compute and reify possible representations/segmentations, alignments (might help them stay at the perceptual level longer)---reify relational similarities into object representations such that relational similarities also become object similarities"]
+  },
+  {
+    "uid": 17,
+    "actionable_principle_name": "As users iteratively/progressively refine their mental representations/segmentations and alignments, allow them to use the system to reify them as material anchors to compare and perform other cognitive tasks with them."
+  },
+  {
+    "uid": 18,
+    "actionable_principle_name": "If the user is not known to want to only focus on one or more apriori known alignment(s), prioritize computing and reifying structurally consistent matches.",
+    "constructed_figures": ["influencing-alignment-salience"]
+  },
+  {
+    "uid": 19,
+    "actionable_principle_name": "Invite comparison via spatial alignment"
   }
 ]
