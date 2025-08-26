@@ -205,5 +205,31 @@ evidence = [
       10
     ],
     "description": "This system performs automatic highlighting (according to 4 pre-defined dimensions) on the variation present in documents but not captured in the AI summary, enabling users to notice variation across those 4 dimensions. Although this is not a Structure-Mapping Engine, the system invites users to assume or look for relationships between all text highlighted in the same color. However, there might be important relationships that are only shared among a subset of texts with the same color, or across texts that do not have the same color or any color assigned at all. Therefore, the support for seeing the 4 aspects may interfere with users perceiving relationships (i.e., information) pertaining to topics beyond the 4th dimension."
+  },
+  {
+    "uid": 11,
+    "principles": [6,9,12],
+    "source": 12,
+    "description": "Direct (parallel) alignment facilitates mapping better than indirect alignment, which is better than impeded (linear) alignment. Indirect and impeded alignments and alignments with competing barriers are all worse than direct alignment, and relative to each other, performance is depended on various contextual factors not fully understood. Non-competing barriers, regardless of whether they are directly or indirectly aligned with the objects to be compared, are annoying but not much worse than direct alignment.",
+    "figures": ["12-2","12-3","12-4","12-5","12-6"],
+    "our_figures": "alignment_types"
+  },
+  {
+    "uid": 12,
+    "source": 12,
+    "principles": 12,
+    "evidence": {"quote": "Summary. The response time results of Experiment 4 followed spatial alignment predictions in both visual comparisons that contained object-matches (replicating Experiment 1) and in visual comparisons that did not contain object matches (only relations; replicating Experiment 3). Moreover, spatial alignment was found to facilitate participant accuracy in visual comparisons with object-matches, but not in visual comparisons with only relations (findings that were also consistent Experiments 1 and 3). A further contribution of Experiment 4 was that it provided a direct comparison between the size of the spatial alignment effects between visual comparisons with and without object matches. Here we found that spatial alignment effects were larger in comparisons containing object matches.", "source": 12, "paraphrased summary": "spatial aligment boosts mapping for object matches more than relational matches"}
+  },
+  {
+    "uid": 13,
+    "source": 1,
+    "principles": [16,17],
+    "evidence": {"quote": "Computing on complex mental images that have material anchors permits people to substitute robust and fast perceptual processes for slow and vulnerable conceptual processes.", "source": 1}
+  },
+  {
+    "uid": 14,
+    "source": 0,
+    "quote": "Based on prior research and theory, we know of factors that promote comparison: (a) spatiotemporal proximity, (b) high similarity, and (c) common labels (as discussed below).",
+    "principles": [12,15,3]
   }
 ]
