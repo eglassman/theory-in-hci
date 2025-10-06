@@ -55,5 +55,24 @@ sources = [
   {
     "uid": 13,
     "title": "AbstractExplorer"
-  }
+  },
+  {
+    "uid": 14,
+    "title": "Structure Mapping in Analogy and Similarity"
+  },
+{
+  "uid": 15,
+  "title": "Learning by Mapping Across Situations"
+},
+{
+  "uid": 16,
+  "info": "@article{ross1989distinguishing, title={Distinguishing types of superficial similarities: Different effects on the access and use of earlier problems.},
+  author={Ross, Brian H},
+  journal={Journal of Experimental Psychology: Learning, memory, and cognition},
+  volume={15},
+  number={3},
+  pages={456},
+  year={1989},
+  publisher={American Psychological Association}}"
+}
 ]
