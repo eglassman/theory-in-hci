@@ -1,0 +1,10 @@
+papers_to_read = [
+    {
+        "title": "New Theoretical Approaches for Human-Computer Interaction",
+        "authors": "Yvonne Rogers",
+        "venue": "Annual review of information science and technology",
+        "year": 2004,
+        "url": "https://doi.org/10.1002/aris.1440380103",
+        "contribution": "critique of theory usage"
+    }
+]

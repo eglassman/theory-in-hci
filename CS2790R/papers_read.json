@@ -1,0 +1,112 @@
+papers = [
+    {
+        "title": "Necessary Conditions of Learning",
+        "authors": "Ference Marton",
+        "venue": "book",
+        "year": 2014,
+        "url": "https://doi.org/10.4324/9781315816876",
+        "presentation date": ["2025-09-22", "?"],
+        "contribution type": "theory",
+        "id": "vt"
+    },
+    {
+        "title": "More than a bit of coding: (un-)Grounded (non-)Theory in HCI",
+        "authors": "Tom Cole and Marco Gillies",
+        "venue": "CHI EA",
+        "year": 2022,
+        "url": "https://gala.gre.ac.uk/id/eprint/36657/7/36657_COLE_More_than_a_bit_of_coding.pdf",
+        "presentation date": "2025-09-24",
+        "contribution type": "critique of theory usage",
+        "id": "ungrounded_theory"
+    },
+    {
+        "title": "Technology as amplifier in international development",
+        "authors": "Kentaro Toyama",
+        "venue": "iConference",
+        "year": 2011,
+        "url": "https://www.kentarotoyama.org/papers/Toyama%202011%20iConference%20-%20Technology%20as%20Amplifier.pdf",
+        "presentation date": "2025-10-01",
+        "contribution type": "theory",
+        "id": "technology_as_amplifier"
+    },
+    {
+        "title": "The theory of constructed emotion: an active inference account of interoception and categorization",
+        "authors": "Lisa Feldman Barrett",
+        "venue": "Social cognitive and affective neuroscience",
+        "year": 2017,
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5691871/",
+        "presentation date": "2025-10-06",
+        "contribution type": "theory",
+        "id": "theory_of_constructed_emotion"
+    },
+    {
+        "title": "Adaptability theory as a guide for interfacing-computers and human society",
+        "authors": "Michael Conrad",
+        "venue": "Systems Research",
+        "year": 1993,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/sres.3850100402",
+        "presentation date": "2025-10-15",
+        "contribution type": "theory application",
+        "id": "conrad93"
+    },
+    {
+        "title": "Affect-and cognition-based trust as foundations for interpersonal cooperation in organizations",
+        "authors": "Daniel J. McAllister",
+        "venue": "Academy of management journal",
+        "year": 1995,
+        "url": "https://doi.org/10.5465/256727",
+        "presentation date": "2025-10-20",
+        "contribution type": "predictive theory",
+        "id": "affect_and_cognition_based_trust"
+    },
+    {
+        "title": "Self-Determination Theory in HCI Games Research: Current Uses and Open Questions",
+        "authors": "April Tyack and Elisa D. Mekler",
+        "venue": "CHI",
+        "year": 2020,
+        "url": "https://dl.acm.org/doi/10.1145/3313831.3376723",
+        "presentation date": "2025-10-27",
+        "contribution type": "description and critique of theory usage",
+        "id": "sdt_in_hci_games"
+    },
+    {
+        "title": "Multiple resources and mental workload",
+        "authors": "Christopher D Wickens",
+        "venue": "Human Factors",
+        "year": 2008,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18689052/",
+        "presentation date": "2025-10-29",
+        "contribution type": "predictive theory",
+        "id": "wickens2008"
+    },
+    {
+        "title": "Comparative Structured Observation",
+        "authors": "Wendy Mackay and Joanna McGrenere",
+        "venue": "CHI",
+        "year": 2025,
+        "url": "https://doi.org/10.1145/3711838",
+        "presentation date": "2025-11-03",
+        "contribution type": "methodology",
+        "id": "cso"
+    },
+    {
+        "title": "Beyond Productivity and Efficiency: Design Tools, Methods and Metrics for Digital Assistance at Work",
+        "authors": "Dhiman, A., Kapp, S., Shankar, S., Lallemand, C., & Calvo, R.",
+        "venue": "Frontiers in Computer Science",
+        "year": 2023,
+        "url": "https://doi.org/10.3389/fcomp.2023.1129087",
+        "presentation date": "2025-11-05",
+        "contribution type": "survey",
+        "id": "dhiman2023"
+    },
+    {
+        "title": "Data Colonialism: Rethinking Big Data’s Relation to the Contemporary Subject",
+        "authors": "Nick Couldry and Ulises A. Mejias",
+        "venue": "Television & New Media",
+        "year": 2018,
+        "url": "https://doi.org/10.1177/1527476418796632",
+        "presentation date": "2025-11-10",
+        "contribution type": "ontological theory",
+        "id": "data_colonialism"
+    }
+]
