@@ -1,0 +1,42 @@
+concepts = [
+    {   
+        "concept_name": "pyschological well-being",  
+        "source_paper_id": "dhiman2023"
+    },
+    {
+        "concept_name": "eudaimonic well-being",
+        "source_paper_id": "dhiman2023"
+    },
+    {
+        "concept_name": "autonomy",
+        "source_paper_id": "sdt_in_hci_games"
+    },
+    {
+        "concept_name": "competence",
+        "source_paper_id": "sdt_in_hci_games"
+    },
+    {
+        "concept_name": "relatedness",
+        "source_paper_id": "sdt_in_hci_games"
+    },
+    {
+        "concept_name": "intrinsic motivation",
+        "source_paper_id": "sdt_in_hci_games"
+    },
+    {
+        "concept_name": "extrinsic motivation",
+        "source_paper_id": "sdt_in_hci_games"
+    },
+    {
+        "concept_name": "perceived autonomy|choice",
+        "source_paper_id": "sdt_in_hci_games"
+    },
+    {
+        "concept_name": "perceived competence",
+        "source_paper_id": "sdt_in_hci_games"
+    },
+    {
+        "concept_name": "common ground",
+        "source_paper_id": "Using_Language"
+    }
+]

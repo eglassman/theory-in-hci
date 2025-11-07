@@ -1,13 +1,68 @@
 papers = [
     {
+        "title": "Generative Theories of Interaction",
+        "authors": "Wendy Mackay, Susanne Bødker, Michel Beaudouin-Lafon",
+        "venue": "TOCHI",
+        "year": 2021,
+        "url": "https://dl.acm.org/doi/10.1145/3468505",
+        "presentation date": ["2025-09-08"],
+        "contribution type": "Methodology",
+        "id": "GToI"
+    },
+    {
+        "title": "Concept-Annotated Examples for Library Comparison",
+        "authors": "Litao Yan, Miryung Kim, Bjoern Hartmann, Tianyi Zhang, Elena L. Glassman",
+        "venue": "UIST",
+        "year": 2022,
+        "url": "https://dl.acm.org/doi/10.1145/3526113.3545647",
+        "presentation date": ["2025-09-08"],
+        "contribution type": "Application of predictive theory",
+        "theories_mentioned_ids": ["VT", "SMT"],
+        "theories_relevant_ids": ["VT", "SMT"],
+        "id": "Paralib"
+    },
+    {
+        "title": "Analogy and Abstraction",
+        "authors": "Dedre Gentner and Christian Hoyos",
+        "venue": "Topics in cognitive science",
+        "year": 2017,
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/tops.12278",
+        "presentation date": ["2025-09-10"],
+        "contribution type": "Summary of predictive theory",
+        "theories_mentioned_ids": ["SMT"],
+        "id": "Analogy_and_abstraction"
+    },
+    {
+        "title": "Supporting Sensemaking of Large Language Model Outputs at Scale",
+        "authors": "Katy Ilonka Gero, Chelse Swoopes, Ziwei Gu, Jonathan K. Kummerfeld, Elena L. Glassman",
+        "venue": "CHI",
+        "year": 2024,
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3613904.3642139",
+        "presentation date": ["2025-09-10"],
+        "contribution type": "Application of predictive theory",
+        "theories_mentioned_ids": ["VT", "SMT"],
+        "theories_relevant_ids": ["VT", "SMT"],
+        "id": "Mesotext"
+    },
+    {
+        "title": "Using Language",
+        "authors": "Herbert H. Clark",
+        "venue": "book",
+        "year": 1996,
+        "url": "https://drive.google.com/file/d/18mdh482oEZ3x6idvMyYDUru26_yyE2F9/view",
+        "presentation date": ["2025-09-15"],
+        "contribution type": "Summary of predictive theory",
+        "id": "Using_Language"
+    },
+    {
         "title": "Necessary Conditions of Learning",
         "authors": "Ference Marton",
         "venue": "book",
         "year": 2014,
         "url": "https://doi.org/10.4324/9781315816876",
-        "presentation date": ["2025-09-22", "?"],
-        "contribution type": "theory",
-        "id": "vt"
+        "presentation date": ["2025-09-17", "2025-09-22"],
+        "contribution type": "Summary of predictive theory",
+        "id": "VT"
     },
     {
         "title": "More than a bit of coding: (un-)Grounded (non-)Theory in HCI",
@@ -26,7 +81,7 @@ papers = [
         "year": 2011,
         "url": "https://www.kentarotoyama.org/papers/Toyama%202011%20iConference%20-%20Technology%20as%20Amplifier.pdf",
         "presentation date": "2025-10-01",
-        "contribution type": "theory",
+        "contribution type": "Description of ontology theory",
         "id": "technology_as_amplifier"
     },
     {
@@ -36,7 +91,7 @@ papers = [
         "year": 2017,
         "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5691871/",
         "presentation date": "2025-10-06",
-        "contribution type": "theory",
+        "contribution type": "Summary of predictive theory",
         "id": "theory_of_constructed_emotion"
     },
     {
@@ -46,7 +101,7 @@ papers = [
         "year": 1993,
         "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/sres.3850100402",
         "presentation date": "2025-10-15",
-        "contribution type": "theory application",
+        "contribution type": "Hypothetical theory application",
         "id": "conrad93"
     },
     {
@@ -56,7 +111,7 @@ papers = [
         "year": 1995,
         "url": "https://doi.org/10.5465/256727",
         "presentation date": "2025-10-20",
-        "contribution type": "predictive theory",
+        "contribution type": "Summary of predictive theory",
         "id": "affect_and_cognition_based_trust"
     },
     {
@@ -66,7 +121,7 @@ papers = [
         "year": 2020,
         "url": "https://dl.acm.org/doi/10.1145/3313831.3376723",
         "presentation date": "2025-10-27",
-        "contribution type": "description and critique of theory usage",
+        "contribution type": "Description and critique of theory usage",
         "id": "sdt_in_hci_games"
     },
     {
@@ -76,7 +131,7 @@ papers = [
         "year": 2008,
         "url": "https://pubmed.ncbi.nlm.nih.gov/18689052/",
         "presentation date": "2025-10-29",
-        "contribution type": "predictive theory",
+        "contribution type": "Summary of predictive theory",
         "id": "wickens2008"
     },
     {
@@ -86,7 +141,7 @@ papers = [
         "year": 2025,
         "url": "https://doi.org/10.1145/3711838",
         "presentation date": "2025-11-03",
-        "contribution type": "methodology",
+        "contribution type": "Description of methodology",
         "id": "cso"
     },
     {
@@ -96,7 +151,7 @@ papers = [
         "year": 2023,
         "url": "https://doi.org/10.3389/fcomp.2023.1129087",
         "presentation date": "2025-11-05",
-        "contribution type": "survey",
+        "contribution type": "Survey with respect to concepts",
         "id": "dhiman2023"
     },
     {
@@ -106,7 +161,7 @@ papers = [
         "year": 2018,
         "url": "https://doi.org/10.1177/1527476418796632",
         "presentation date": "2025-11-10",
-        "contribution type": "ontological theory",
+        "contribution type": "Description of ontology theory",
         "id": "data_colonialism"
     }
 ]

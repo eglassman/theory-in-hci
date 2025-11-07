@@ -1,0 +1,43 @@
+theories = [
+  {
+    "theory_name": "Theory of constructed emotion",
+    "source_paper_id": "theory_of_constructed_emotion",
+    "theory type": "predictive"
+  },
+  {
+    "theory_name": "Adaptability theory",
+    "source_paper_id": "conrad93",
+    "theory type": "ontological"
+  },
+  {
+    "theory_name": "Affect-and cognition-based trust",
+    "source_paper_id": "affect_and_cognition_based_trust",
+    "theory type": "predictive"
+  },
+  {
+    "theory_name": "Self-Determination Theory",
+    "source_paper_id": "sdt_in_hci_games",
+    "theory type": "collection of 6 predictive mini-theories"
+  },
+  {
+    "theory_name": "Multiple resource theory",
+    "source_paper_id": "wickens2008",
+    "theory type": "predictive"
+  },
+  {
+    "theory_name": "Data colonialism",  
+    "source_paper_id": "data_colonialism",
+    "theory type": "ontological"
+  },
+  {
+    "theory_name": "Variation theory",
+    "source_paper_id": "VT",
+    "theory type": "predictive"
+  },
+  {
+    "theory_name": "Structural Mapping Theory",
+    "source_paper_id": "SMT",
+    "alternative_names": ["Structural Alignment Theory", "Analogical Learning Theory"],
+    "theory type": "predictive"
+  }
+]
