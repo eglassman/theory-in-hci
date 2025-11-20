@@ -115,6 +115,81 @@ papers = [
         "id": "affect_and_cognition_based_trust"
     },
     {
+        "title": "Vistrust: a multidimensional framework and empirical study of trust in data visualizations",
+        "authors": "Elhamdadi, H., Stefkovics, A., Beyer, J., Moerth, E., Pfister, H., Bearfield, C.X. and Nobre, C.",
+        "venue": "TVCG",
+        "year": 2023,
+        "url": "https://ieeexplore.ieee.org/abstract/document/10308716",
+        "presentation date": "2025-10-20",
+        "contribution type": ["Framework", "Framework_evaluation"],
+        "characterization of connection to theory": ["TBD"],
+        "theories_mentioned_ids": ["TBD"],
+        "theories_relevant_ids": ["affect_and_cognition_based_trust"],
+        "concepts_mentioned_ids": ["TBD"],
+        "concepts_relevant_ids": ["cognitive trust", "affective trust"],
+        "id": "vistrust"
+    },
+    {
+        "title": "Viral visualizations: How coronavirus skeptics use orthodox data practices to promote unorthodox science online",
+        "authors": "Lee, C., Yang, T., Inchoco, G.D., Jones, G.M. and Satyanarayan, A.",
+        "venue": "CHI",
+        "year": 2021,
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3411764.3445211",
+        "presentation date": "2025-10-20",
+        "contribution type": ["Observational Study? (TBD)"],
+        "characterization of connection to theory": ["TBD"],
+        "theories_mentioned_ids": ["TBD"],
+        "theories_relevant_ids": ["affect_and_cognition_based_trust"],
+        "concepts_mentioned_ids": ["TBD"],
+        "concepts_relevant_ids": ["cognitive trust", "affective trust"],
+        "id": "viral_visualizations"
+    },
+    {
+        "title": "An AI-Resilient Text Rendering Technique for Reading and Skimming Documents",
+        "authors": "Ziwei Gu, Ian Arawjo, Kenneth Li, Jonathan K. Kummerfeld, Elena L. Glassman",
+        "venue": "CHI",
+        "year": 2024,
+        "url": "https://glassmanlab.seas.harvard.edu/papers/gptsm.pdf",
+        "presentation date": "2025-10-22",
+        "contribution type": ["System","Concept"],
+        "characterization of connection to theory": ["almost entirely implicit","mentioned in related work"],
+        "theories_mentioned_ids": ["skimming? TBD"],
+        "theories_relevant_ids": ["affect-and cognition-based trust"],
+        "concepts_mentioned_ids": ["AI-resilient interface"],
+        "concepts_relevant_ids": ["cognitive trust", "affective trust"],
+        "id": "gptsm"
+    },
+    {
+        "title": "Why Do Skimmers Perform Better with Grammar-Preserving Text Saliency Modulation (GP-TSM)? Evidence from an Eye Tracking Study",
+        "authors": "Ziwei Gu, Owen Raymond, Naser Al Madi, Elena L. Glassman",
+        "venue": "CHI EA",
+        "year": 2024,
+        "url": "https://glassmanlab.seas.harvard.edu/papers/gptsm_eye_lbw.pdf",
+        "presentation date": "2025-10-22",
+        "contribution type": ["System_evaluation","Concept_evaluation"],
+        "characterization of connection to theory": ["almost entirely implicit","mentioned TBD"],
+        "theories_mentioned_ids": ["skimming? TBD"],
+        "theories_relevant_ids": ["affect-and cognition-based trust"],
+        "concepts_mentioned_ids": ["AI-resilient interface"],
+        "concepts_relevant_ids": ["cognitive trust", "affective trust"],
+        "id": "gptsm_eyetracking"
+    },
+    {
+        "title": "AI-Resilient Interfaces (Working Draft)",
+        "authors": "Elena L. Glassman, Ziwei Gu, Jonathan K. Kummerfeld",
+        "venue": "arXiv",
+        "year": 2024,
+        "url": "https://glassmanlab.seas.harvard.edu/papers/AI_Resilient_Interfaces_draft.pdf",
+        "presentation date": "2025-10-22",
+        "contribution type": ["Concept_elaboration"],
+        "characterization of connection to theory": ["almost entirely implicit","mentioned TBD"],
+        "theories_mentioned_ids": ["skimming? TBD"],
+        "theories_relevant_ids": ["affect-and cognition-based trust"],
+        "concepts_mentioned_ids": ["AI-resilient interface"],
+        "concepts_relevant_ids": ["cognitive trust", "affective trust"],
+        "id": "ai_resilient_interfaces_working_draft"
+    }
+    {
         "title": "Self-Determination Theory in HCI Games Research: Current Uses and Open Questions",
         "authors": "April Tyack and Elisa D. Mekler",
         "venue": "CHI",
@@ -125,6 +200,36 @@ papers = [
         "id": "sdt_in_hci_games"
     },
     {
+        "title": "Operationalizing Radiant Patterns: A Refined Definition and Pattern Structure to Mitigate Deceptive Game Design Practices",
+        "authors": "Luiz Santos Filho and Ticianne Darin",
+        "venue": "WIPlay",
+        "year": 2025,
+        "url": ["https://link.springer.com/chapter/10.1007/978-3-032-01426-9_8", "https://static.us.edusercontent.com/files/V0A3b6tw39AHS30KEumXKQIK"],
+        "presentation date": "2025-10-27",
+        "contribution type": "TBD",
+        "characterization of connection to theory": ["TBD"],
+        "theories_mentioned_ids": ["TBD"],
+        "theories_relevant_ids": ["SDT"],
+        "concepts_mentioned_ids": ["TBD"],
+        "concepts_relevant_ids": ["TBD"],
+        "id": "radiantPatterns"
+    },
+    {
+        "title": "Looking through the Lens: Contextualizing and Operationalizing Design Recommendations for Rehabilitation Games for Young People",
+        "authors": "Maria Aufheimer, Kathrin Gerling, T. C. Nicholas Graham, André Rodrigues, Zeynep Yildiz",
+        "venue": "CHI PLAY",
+        "year": 2025,
+        "url": "https://dl.acm.org/doi/10.1145/3748596",
+        "presentation date": "2025-10-27",
+        "contribution type": "Application of predictive theory",
+        "characterization of connection to theory": ["TBD"],
+        "theories_mentioned_ids": ["TBD"], //[{"name": "SDT", "quote": {"section": "TBD", "quote": "TBD"}}]
+        "theories_relevant_ids": ["SDT"], 
+        "concepts_mentioned_ids": ["TBD"],
+        "concepts_relevant_ids": ["TBD"],
+        "id": "looking_lens"
+    },
+    {
         "title": "Multiple resources and mental workload",
         "authors": "Christopher D Wickens",
         "venue": "Human Factors",
@@ -133,6 +238,36 @@ papers = [
         "presentation date": "2025-10-29",
         "contribution type": "Summary of predictive theory",
         "id": "wickens2008"
+    },
+    {
+        "title": "Human I/O: Towards a Unified Approach to Detecting Situational Impairments",
+        "authors": "Xingyu Bruce Liu, Jiahao Nick Li, David Kim, Xiang 'Anthony' Chen, Ruofei Du",
+        "venue": "CHI",
+        "year": 2024,
+        "url": "https://dl.acm.org/doi/10.1145/3613904.3642065",
+        "presentation date": "2025-10-29",
+        "contribution type": "TBD",
+        "characterization of connection to theory": ["TBD"],
+        "theories_mentioned_ids": ["TBD"],
+        "theories_relevant_ids": ["Multiple resource theory"],
+        "concepts_mentioned_ids": ["TBD"],
+        "concepts_relevant_ids": ["TBD"],
+        "id": "humanIO"
+    },
+    {
+        "title": "AudioXtend: Assisted Reality Visual Accompaniments for Audiobook Storytelling During Everyday Routine Tasks",
+        "authors": "Felicia Fang-Yi Tan, Peisen Xu, Ashwin Ram, Wei Zhen Suen, Shengdong Zhao, Yun Huang, Christophe Hurter",
+        "venue": "CHI",
+        "year": 2024,
+        "url": "https://dl.acm.org/doi/10.1145/3613904.3642514",
+        "presentation date": "2025-10-29",
+        "contribution type": "TBD",
+        "characterization of connection to theory": ["TBD"],
+        "theories_mentioned_ids": ["TBD"],
+        "theories_relevant_ids": ["Multiple resource theory"],
+        "concepts_mentioned_ids": ["TBD"],
+        "concepts_relevant_ids": ["TBD"],
+        "id": "audioXtend"
     },
     {
         "title": "Comparative Structured Observation",
@@ -155,6 +290,31 @@ papers = [
         "id": "dhiman2023"
     },
     {
+        "title": "From User Surveys to Telemetry-Driven AI Agents: Exploring the Potential of Personalised Productivity Solutions",
+        "authors": "Nepal, S., Arora, S., Abdi, H., Hales, D., & Kamar, E.",
+        "venue": "CHI",
+        "year": 2025,
+        "url": "https://doi.org/10.48550/arXiv.2401.08960",
+        "presentation date": "2025-11-05",
+        "contribution type": "TBD",
+        "characterization of connection to theory": "TBD",
+        "id": "telemetry_driven_ai_agents"
+    },
+    {
+        "title": "Fostering Eudaimonia: Design to Support Virtues and Practical Wisdom",
+        "authors": "Dhiman, H., O’Donnell, N., Nemoto, Y., Rovelo Ruiz, G. A., Plewe, D., Wemmer, E., & Röcker, C.",
+        "venue": "DIS",
+        "year": 2025,
+        "url": "https://doi.org/10.1145/3715668.3734163",
+        "presentation date": "2025-11-05",
+        "contribution type": "Application of predictive theory",
+        "characterization of connection to theory": "TBD",
+        "theories_mentioned_ids": ["TBD"],
+        "theories_relevant_ids": ["TBD"],
+        "concepts_mentioned_ids": ["eudaimonia"],
+        "id": "fostering_eudaimonia"
+    },
+    {
         "title": "Data Colonialism: Rethinking Big Data’s Relation to the Contemporary Subject",
         "authors": "Nick Couldry and Ulises A. Mejias",
         "venue": "Television & New Media",
@@ -163,5 +323,31 @@ papers = [
         "presentation date": "2025-11-10",
         "contribution type": "Description of ontology theory",
         "id": "data_colonialism"
+    },
+    {
+        "title": "Creative Writers’ Attitudes on Writing as Training Data for Large Language Models",
+        "authors": "Katy Ilonka Gero, Meera Desai, Carly Schnitzler, Nayun Eom, Jack Cushman, Elena L. Glassman",
+        "venue": "CHI",
+        "year": 2024,
+        "url": "https://doi.org/10.1145/3706598.3713287",
+        "presentation date": "2025-11-10",
+        "contribution type": "Application of ontological theory",
+        "characterization of connection to theory": ["almost entirely implicit", "mentioned explicitly in introduction"],
+        "theories_mentioned_ids": ["data colonialism"],
+        "theories_relevant_ids": ["data colonialism"],
+        "id": "Creative_Writers_Attitudes"
+    },
+    {
+        "title": "Data Sins: Exploring Data Colonialism through Storytelling-Based Speculative Design Practices",
+        "authors": "Elena L. Glassman, Katy Ilonka Gero, Chelse Swoopes, Ziwei Gu, Jonathan K. Kummerfeld",
+        "venue": "Creativity and Cognition",
+        "year": 2025,
+        "url": "https://dl.acm.org/doi/10.1145/3698061.3726961",
+        "presentation date": "2025-11-10",
+        "contribution type": "Application of ontological theory",
+        "characterization of connection to theory": "TBD",
+        "theories_mentioned_ids": ["data colonialism"],
+        "theories_relevant_ids": ["data colonialism"],
+        "id": "data_sins"
     }
 ]

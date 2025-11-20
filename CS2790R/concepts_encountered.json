@@ -4,7 +4,7 @@ concepts = [
         "source_paper_id": "dhiman2023"
     },
     {
-        "concept_name": "eudaimonic well-being",
+        "concept_name": "eudaimonia",
         "source_paper_id": "dhiman2023"
     },
     {
@@ -38,5 +38,17 @@ concepts = [
     {
         "concept_name": "common ground",
         "source_paper_id": "Using_Language"
+    },
+    {
+        "concept_name": "AI-resilient interface",
+        "source_paper_id": "gptsm"
+    },
+    {
+        "concept_name": "cognitive trust",
+        "source_paper_id": "affect_and_cognition_based_trust"
+    },
+    {
+        "concept_name": "affective trust",
+        "source_paper_id": "affect_and_cognition_based_trust"
     }
 ]

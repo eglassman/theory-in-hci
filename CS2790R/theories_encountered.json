@@ -1,11 +1,13 @@
 theories = [
   {
     "theory_name": "Theory of constructed emotion",
+    "theory_id": "constructed_emotion",
     "source_paper_id": "theory_of_constructed_emotion",
     "theory type": "predictive"
   },
   {
     "theory_name": "Adaptability theory",
+    "theory_id": "adaptability",
     "source_paper_id": "conrad93",
     "theory type": "ontological"
   },
@@ -16,6 +18,7 @@ theories = [
   },
   {
     "theory_name": "Self-Determination Theory",
+    "theory_id": "SDT",
     "source_paper_id": "sdt_in_hci_games",
     "theory type": "collection of 6 predictive mini-theories"
   },
@@ -26,17 +29,18 @@ theories = [
   },
   {
     "theory_name": "Data colonialism",  
+    "theory_id": "data_colonialism",
     "source_paper_id": "data_colonialism",
     "theory type": "ontological"
   },
   {
     "theory_name": "Variation theory",
-    "source_paper_id": "VT",
+    "theory_id": "VT",
     "theory type": "predictive"
   },
   {
     "theory_name": "Structural Mapping Theory",
-    "source_paper_id": "SMT",
+    "theory_id": "SMT",
     "alternative_names": ["Structural Alignment Theory", "Analogical Learning Theory"],
     "theory type": "predictive"
   }
