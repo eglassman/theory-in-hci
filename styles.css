@@ -66,6 +66,7 @@ main section + section {
 }
 
 .submission-lead {
+  font-weight: 700;
   color: var(--text);
   opacity: 0.85;
 }
