@@ -101,6 +101,13 @@ a:focus-visible {
   color: var(--muted);
 }
 
+.paper-abstract {
+  margin: 0.4rem 0 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
 footer {
   padding: 0.5rem 0 2rem;
   color: var(--muted);
@@ -127,6 +134,14 @@ footer {
 
 .contributors-list li {
   margin-bottom: 0.35rem;
+}
+
+.contributors-acknowledgment {
+  margin: 0.75rem 0 0;
+  max-width: 65ch;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--muted);
 }
 
 :root.light {
