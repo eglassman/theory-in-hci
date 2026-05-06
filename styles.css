@@ -271,3 +271,12 @@ footer {
 :root.light .activity-list .activity-examples > li .activity-pairing {
   background: rgba(15, 23, 42, 0.055);
 }
+
+:root.light a {
+  color: #1d4ed8;
+}
+
+:root.light a:hover,
+:root.light a:focus-visible {
+  color: #1e3a8a;
+}
