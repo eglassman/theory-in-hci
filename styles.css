@@ -168,6 +168,29 @@ main section + section {
   opacity: 0.85;
 }
 
+.page-toc .submission-note--sidebar {
+  margin-top: 1.15rem;
+  padding-top: 1rem;
+  margin-bottom: 0;
+  border-top: 1px solid var(--border);
+  font-size: 0.72rem;
+  line-height: 1.5;
+}
+
+.page-toc .submission-note--sidebar .submission-lead {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  opacity: 0.95;
+}
+
+.page-toc .submission-note--sidebar a {
+  word-break: break-word;
+}
+
 .paper-list {
   padding-left: 1.2rem;
 }
