@@ -97,6 +97,14 @@ main section + section {
   list-style-position: outside;
 }
 
+.activity-list .activity-prompts li > p {
+  margin: 0 0 0.45rem;
+}
+
+.activity-list .activity-prompts li > p:last-child {
+  margin-bottom: 0;
+}
+
 .activity-list .activity-examples-prompts {
   margin: 0.4rem 0 0;
   padding-left: 1.25rem;
@@ -107,18 +115,39 @@ main section + section {
   margin-bottom: 0.45rem;
 }
 
-.activity-list .activity-module-papers {
-  margin: 0.35rem 0 0.5rem;
-  padding-left: 1.1rem;
-  list-style: disc;
+.activity-list .activity-examples > li > p:not(.activity-reflect-lead) {
+  margin: 0 0 0.55rem;
+  color: var(--muted);
 }
 
-.activity-list .activity-examples-prompts + .activity-module-papers {
+.activity-list .activity-examples > li .activity-pairing {
+  margin-top: 0.65rem;
+}
+
+.activity-list .activity-examples > li .activity-pairing + .activity-pairing {
+  margin-top: 1.1rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--border);
+}
+
+.activity-list .activity-examples > li .activity-pairing p {
+  margin: 0 0 0.55rem;
+  color: var(--muted);
+}
+
+.activity-list .activity-examples > li .activity-pairing p:last-child {
+  margin-bottom: 0;
+}
+
+.activity-list .activity-examples > li .activity-pairing-label {
+  margin: 0 0 0.45rem;
+  color: var(--text);
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+.activity-list .activity-examples-prompts + p {
   margin-top: 0.55rem;
-}
-
-.activity-list .activity-examples > li > .activity-module-papers:first-child {
-  margin-top: 0;
 }
 
 .activity-list .activity-examples > li > .activity-prompts {
