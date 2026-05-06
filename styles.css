@@ -81,6 +81,31 @@ main section + section {
   margin-bottom: 0.9rem;
 }
 
+/* Classroom Activities: separate major assignments from each other */
+.activity-list > li {
+  margin-bottom: 1.85rem;
+  padding: 1.25rem 1.15rem 1.35rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.22);
+  list-style-position: outside;
+}
+
+.activity-list > li:last-child {
+  margin-bottom: 0;
+}
+
+/* Nested example assignments inside “Practice bringing…” */
+.activity-list .activity-examples > li {
+  margin-bottom: 0;
+}
+
+.activity-list .activity-examples > li + li {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
 .activity-list .activity-examples,
 .activity-list .activity-prompts {
   margin: 0.5rem 0 0;
@@ -88,7 +113,6 @@ main section + section {
   color: var(--muted);
 }
 
-.activity-list .activity-examples li,
 .activity-list .activity-prompts li {
   margin-bottom: 0.55rem;
 }
@@ -121,13 +145,19 @@ main section + section {
 }
 
 .activity-list .activity-examples > li .activity-pairing {
-  margin-top: 0.65rem;
+  margin-top: 1.05rem;
+  padding: 1.05rem 1rem 1.1rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.18);
+}
+
+.activity-list .activity-examples > li > div.activity-pairing:first-of-type {
+  margin-top: 1.2rem;
 }
 
 .activity-list .activity-examples > li .activity-pairing + .activity-pairing {
-  margin-top: 1.1rem;
-  padding-top: 1.1rem;
-  border-top: 1px solid var(--border);
+  margin-top: 1.25rem;
 }
 
 .activity-list .activity-examples > li .activity-pairing p {
@@ -232,4 +262,12 @@ footer {
 
 :root.light body {
   background: var(--bg);
+}
+
+:root.light .activity-list > li {
+  background: rgba(15, 23, 42, 0.045);
+}
+
+:root.light .activity-list .activity-examples > li .activity-pairing {
+  background: rgba(15, 23, 42, 0.055);
 }
