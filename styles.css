@@ -81,6 +81,10 @@ main section + section {
   list-style: none;
 }
 
+.activity-list > li::marker {
+  content: none;
+}
+
 .paper-list li,
 .activity-list li {
   margin-bottom: 0.9rem;
@@ -88,6 +92,7 @@ main section + section {
 
 /* Classroom Activities: separate major assignments from each other */
 .activity-list > li {
+  list-style: none;
   margin-bottom: 1.85rem;
   padding: 1.25rem 1.15rem 1.35rem;
   border: 1px solid var(--border);
@@ -99,40 +104,46 @@ main section + section {
   margin-bottom: 0;
 }
 
-/* Nested example assignments inside “Practice bringing…” */
+/* Nested example assignments: each row is its own sub-card */
+.activity-list .activity-examples {
+  margin: 0.5rem 0 0;
+  padding-left: 0;
+  list-style: none;
+  color: var(--muted);
+  display: flex;
+  flex-direction: column;
+  gap: 1.35rem;
+}
+
 .activity-list .activity-examples > li {
   margin-bottom: 0;
+  padding: 1.15rem 1rem 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.11);
 }
 
-.activity-list .activity-examples > li + li {
-  margin-top: 1.5rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid var(--border);
+/* Example rows use dividers only—no discs beside pairing boxes */
+.activity-list .activity-examples > li::marker {
+  content: none;
 }
 
-.activity-list .activity-examples,
 .activity-list .activity-prompts {
   margin: 0.5rem 0 0;
   padding-left: 1.25rem;
   color: var(--muted);
-}
-
-/* Parent .activity-list uses list-style: none; restore markers on nested lists */
-.activity-list .activity-examples {
-  list-style: disc;
-  list-style-position: outside;
-}
-
-.activity-list .activity-prompts {
   list-style: decimal;
+  list-style-position: outside;
 }
 
 .activity-list .activity-prompts li {
   margin-bottom: 0.55rem;
 }
 
-.activity-list .activity-prompts {
-  list-style-position: outside;
+/* Numbered prompts on a top-level activity card: markers inside padding, not beside the border */
+.activity-list > li > .activity-prompts {
+  list-style-position: inside;
+  padding-left: 0;
 }
 
 .activity-list .activity-prompts li > p {
@@ -296,6 +307,10 @@ footer {
 
 :root.light .activity-list > li {
   background: rgba(15, 23, 42, 0.045);
+}
+
+:root.light .activity-list .activity-examples > li {
+  background: rgba(15, 23, 42, 0.035);
 }
 
 :root.light .activity-list .activity-examples > li .activity-pairing {
