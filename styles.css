@@ -373,8 +373,9 @@ a:focus-visible {
 .paper-abstract {
   margin: 0.4rem 0 0;
   color: var(--muted);
-  font-size: 0.9rem;
+  font-size: 0.875rem;
   line-height: 1.55;
+  opacity: 0.88;
 }
 
 .contributors {
