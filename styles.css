@@ -359,6 +359,32 @@ a:focus-visible {
   padding-top: 0;
 }
 
+.page-toc .contributors--sidebar {
+  margin-top: 1.15rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+
+.page-toc .contributors--sidebar .contributors-title {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 0.45rem;
+}
+
+.page-toc .contributors--sidebar .contributors-list {
+  padding-left: 1rem;
+  font-size: 0.78rem;
+  line-height: 1.45;
+}
+
+.page-toc .contributors--sidebar .contributors-acknowledgment {
+  margin-top: 0.55rem;
+  font-size: 0.72rem;
+  line-height: 1.5;
+}
+
 .contributors-title {
   margin: 0 0 0.35rem;
   font-size: 0.875rem;
