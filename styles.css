@@ -81,6 +81,55 @@ main section + section {
   margin-bottom: 0.9rem;
 }
 
+.activity-list .activity-examples,
+.activity-list .activity-prompts {
+  margin: 0.5rem 0 0;
+  padding-left: 1.25rem;
+  color: var(--muted);
+}
+
+.activity-list .activity-examples li,
+.activity-list .activity-prompts li {
+  margin-bottom: 0.55rem;
+}
+
+.activity-list .activity-prompts {
+  list-style-position: outside;
+}
+
+.activity-list .activity-examples-prompts {
+  margin: 0.4rem 0 0;
+  padding-left: 1.25rem;
+  list-style-position: outside;
+}
+
+.activity-list .activity-examples-prompts li {
+  margin-bottom: 0.45rem;
+}
+
+.activity-list .activity-module-papers {
+  margin: 0.35rem 0 0.5rem;
+  padding-left: 1.1rem;
+  list-style: disc;
+}
+
+.activity-list .activity-examples-prompts + .activity-module-papers {
+  margin-top: 0.55rem;
+}
+
+.activity-list .activity-examples > li > .activity-module-papers:first-child {
+  margin-top: 0;
+}
+
+.activity-list .activity-examples > li > .activity-prompts {
+  margin: 0.55rem 0 0;
+}
+
+.activity-list .activity-reflect-lead {
+  margin: 0 0 0.35rem;
+  color: var(--muted);
+}
+
 a {
   color: #9bdbff;
   text-underline-offset: 2px;
@@ -138,7 +187,6 @@ footer {
 
 .contributors-acknowledgment {
   margin: 0.75rem 0 0;
-  max-width: 65ch;
   font-size: 0.85rem;
   line-height: 1.5;
   color: var(--muted);
