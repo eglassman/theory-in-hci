@@ -1,10 +1,10 @@
 :root {
-  --bg: #0b1020;
-  --surface: #121a30;
-  --text: #e6e9f2;
-  --muted: #aab3c5;
-  --accent: #7aa2ff;
-  --border: #25304d;
+  --bg: #f6f8fc;
+  --surface: #ffffff;
+  --text: #0f172a;
+  --muted: #475569;
+  --accent: #2563eb;
+  --border: #dbe2f0;
   --maxw: 920px;
 }
 
@@ -34,7 +34,7 @@ body {
   font-family: "Trebuchet MS", sans-serif;
   line-height: 1.6;
   color: var(--text);
-  background: linear-gradient(180deg, #0a0f1d 0%, #0b1020 100%);
+  background: var(--bg);
 }
 
 .page-layout {
@@ -99,7 +99,7 @@ body {
 
 .page-toc-list a:hover,
 .page-toc-list a:focus-visible {
-  background: rgba(122, 162, 255, 0.12);
+  background: rgba(37, 99, 235, 0.1);
   color: var(--text);
 }
 
@@ -217,7 +217,7 @@ main section + section {
   padding: 1.25rem 1.15rem 1.35rem;
   border: 1px solid var(--border);
   border-radius: 12px;
-  background: rgba(0, 0, 0, 0.22);
+  background: rgba(15, 23, 42, 0.045);
 }
 
 .activity-list > li:last-child {
@@ -240,7 +240,7 @@ main section + section {
   padding: 1.15rem 1rem 1.25rem;
   border: 1px solid var(--border);
   border-radius: 10px;
-  background: rgba(0, 0, 0, 0.11);
+  background: rgba(15, 23, 42, 0.035);
 }
 
 /* Example rows use dividers only—no discs beside pairing boxes */
@@ -295,7 +295,7 @@ main section + section {
   padding: 1.05rem 1rem 1.1rem;
   border: 1px solid var(--border);
   border-radius: 10px;
-  background: rgba(0, 0, 0, 0.18);
+  background: rgba(15, 23, 42, 0.055);
 }
 
 .activity-list .activity-examples > li > div.activity-pairing:first-of-type {
@@ -351,13 +351,13 @@ main section + section {
 }
 
 a {
-  color: #9bdbff;
+  color: #1d4ed8;
   text-underline-offset: 2px;
 }
 
 a:hover,
 a:focus-visible {
-  color: #c8e9ff;
+  color: #1e3a8a;
 }
 
 .paper-meta {
@@ -432,45 +432,6 @@ a:focus-visible {
   font-size: 0.85rem;
   line-height: 1.5;
   color: var(--muted);
-}
-
-:root.light {
-  --bg: #f6f8fc;
-  --surface: #ffffff;
-  --text: #0f172a;
-  --muted: #475569;
-  --accent: #2563eb;
-  --border: #dbe2f0;
-}
-
-:root.light body {
-  background: var(--bg);
-}
-
-:root.light .activity-list > li {
-  background: rgba(15, 23, 42, 0.045);
-}
-
-:root.light .activity-list .activity-examples > li {
-  background: rgba(15, 23, 42, 0.035);
-}
-
-:root.light .activity-list .activity-examples > li .activity-pairing {
-  background: rgba(15, 23, 42, 0.055);
-}
-
-:root.light a {
-  color: #1d4ed8;
-}
-
-:root.light a:hover,
-:root.light a:focus-visible {
-  color: #1e3a8a;
-}
-
-:root.light .page-toc-list a:hover,
-:root.light .page-toc-list a:focus-visible {
-  background: rgba(37, 99, 235, 0.1);
 }
 
 @media (max-width: 800px) {
