@@ -12,9 +12,8 @@ Usage:
         --container "Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems" \\
         --volume-doi 10.1145/3706598 -o chi2025_papers.csv
 
-Uses only the Python standard library. Useful when dblp.org answers with its
-"Making sure you're not a bot!" page (see tools/dblp_to_csv.py). Crossref has
-no session headings, so this CSV has none.
+Uses only the Python standard library. Crossref has no session headings,
+so this CSV has none.
 
 How it works: asks the Crossref REST API for every proceedings-article whose
 container title is the volume's exact title, paging with a cursor, and keeps
@@ -68,7 +67,7 @@ def year_of(item):
     return ""
 
 
-def papers(container, volume_doi, mailto=None):
+def papers(container, volume_doi):
     cursor = "*"
     while True:
         params = {
@@ -76,8 +75,6 @@ def papers(container, volume_doi, mailto=None):
             "rows": 1000, "cursor": cursor,
             "select": "DOI,title,author,page,published,issued,URL",
         }
-        if mailto:
-            params["mailto"] = mailto
         msg = fetch_json(f"{API}?{urllib.parse.urlencode(params)}")["message"]
         items = msg.get("items", [])
         if not items:
@@ -107,11 +104,10 @@ def main():
                     help="exact proceedings title in Crossref (default: CHI 2026)")
     ap.add_argument("--volume-doi", default=DEFAULT_VOLUME_DOI,
                     help="keep only DOIs under this volume DOI ('' to keep all)")
-    ap.add_argument("--mailto", help="your email, sent to Crossref's polite pool")
     ap.add_argument("-o", "--output", default="chi2026_papers.csv", help="CSV path")
     args = ap.parse_args()
 
-    rows = sorted(papers(args.container, args.volume_doi, args.mailto),
+    rows = sorted(papers(args.container, args.volume_doi),
                   key=lambda p: p["doi"])
     with open(args.output, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=FIELDS)
