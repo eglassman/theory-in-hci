@@ -12,7 +12,8 @@ small free daily budget with everyone on the same IP address. A free personal
 key (https://help.openalex.org/api/authentication/) avoids that: pass it with
 --api-key or set OPENALEX_API_KEY.
 
-Each original column is kept as is. OpenAlex fields are appended, prefixed
+Each original column is kept as is. OpenAlex fields (all of them except those
+left out in SELECT / SKIP_SUBFIELDS below) are appended, prefixed
 `openalex_`:
   * plain values (title, publication_date, cited_by_count, fwci, ...) get
     their own column;
@@ -41,6 +42,29 @@ API = "https://api.openalex.org/works"
 USER_AGENT = "theory-in-hci openalex_augment_csv/1.0 (research script)"
 BATCH = 50
 PREFIX = "openalex_"
+
+# Top-level fields requested from OpenAlex (its `select` parameter). This is
+# every field a work record has, minus ones that were blank for (nearly) all
+# CHI 2026 papers: volume, apc_list, apc_paid, mesh, corresponding_author_ids.
+SELECT = [
+    "id", "doi", "title", "display_name", "publication_year", "publication_date",
+    "ids", "language", "primary_location", "type", "indexed_in", "open_access",
+    "authorships", "institutions", "countries_distinct_count",
+    "institutions_distinct_count", "corresponding_institution_ids", "fwci",
+    "has_fulltext", "cited_by_count", "citation_normalized_percentile",
+    "cited_by_percentile_year", "biblio", "is_retracted", "is_paratext",
+    "is_xpac", "primary_topic", "topics", "keywords", "concepts",
+    "locations_count", "locations", "best_oa_location",
+    "sustainable_development_goals", "study_designs", "awards", "funders",
+    "has_content", "content_urls", "referenced_works_count",
+    "referenced_works", "related_works", "abstract_inverted_index",
+    "counts_by_year", "updated_date", "created_date",
+]
+# Subfields OpenAlex can't leave out on its side; dropped before writing.
+SKIP_SUBFIELDS = {
+    "biblio.issue", "biblio.volume", "ids.pmid", "ids.pmcid",
+    "primary_location.pdf_url",
+}
 
 
 def fetch_json(url, api_key=None, retries=5):
@@ -79,7 +103,8 @@ def lookup(dois, api_key=None):
     for i in range(0, len(dois), BATCH):
         chunk = dois[i:i + BATCH]
         q = urllib.parse.urlencode({
-            "filter": "doi:" + "|".join(chunk), "per-page": BATCH})
+            "filter": "doi:" + "|".join(chunk), "per-page": BATCH,
+            "select": ",".join(SELECT)})
         for w in fetch_json(f"{API}?{q}", api_key).get("results", []):
             works[norm_doi(w.get("doi"))] = w
         print(f"  looked up {min(i + BATCH, len(dois))}/{len(dois)}", file=sys.stderr)
@@ -120,7 +145,8 @@ def flatten(work):
     for k, v in work.items():
         if isinstance(v, dict) and v and k != "abstract_inverted_index":
             for sk, sv in v.items():
-                row[f"{PREFIX}{k}.{sk}"] = cell(sv)
+                if f"{k}.{sk}" not in SKIP_SUBFIELDS:
+                    row[f"{PREFIX}{k}.{sk}"] = cell(sv)
         else:
             row[PREFIX + k] = cell(v)
     auths = work.get("authorships") or []
