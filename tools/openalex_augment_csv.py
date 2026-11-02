@@ -165,8 +165,15 @@ def main():
             if k not in oa_fields:
                 oa_fields.append(k)
 
+    # A field that is null for some papers and an object for others shows up
+    # both as "x" (always blank) and as "x.sub" columns; keep only the latter.
+    oa_fields = [k for k in oa_fields
+                 if not (any(c.startswith(k + ".") for c in oa_fields)
+                         and not any(e.get(k) for e in extra))]
+
     with open(out, "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=base_fields + oa_fields, restval="")
+        w = csv.DictWriter(f, fieldnames=base_fields + oa_fields, restval="",
+                           extrasaction="ignore")
         w.writeheader()
         for r, e in zip(rows, extra):
             w.writerow({**r, **e})
