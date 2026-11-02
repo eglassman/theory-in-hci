@@ -118,7 +118,7 @@ def join_unique(names):
 def flatten(work):
     row = {}
     for k, v in work.items():
-        if isinstance(v, dict) and v:
+        if isinstance(v, dict) and v and k != "abstract_inverted_index":
             for sk, sv in v.items():
                 row[f"{PREFIX}{k}.{sk}"] = cell(sv)
         else:
